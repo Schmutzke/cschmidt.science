@@ -2,8 +2,8 @@
 publish: true
 permalink: /Online_Pages/Curriculum Vitae.md
 created: 2026-02-28T17:31:04.260-08:00
-modified: 2026-03-01T17:16:08.570-08:00
-published: 2026-03-01T17:16:08.570-08:00
+modified: 2026-03-01T17:42:43.574-08:00
+published: 2026-03-01T17:42:43.574-08:00
 cssclasses: ""
 ---
 
@@ -72,5 +72,4 @@ Vice Chair | _Feb 2019–Apr 2021_
 - LaTeX Typesetting [📜](https://badgr.com/public/assertions/5o7BktlnRK67alpk4w7UVw?identity__email=christianschmidt@uvic.ca) (novice)
 
 ---
-
-## 
+## Service

@@ -3,17 +3,15 @@ publish: true
 permalink: /Online_Pages/Contact.md
 title: Contact
 created: 2026-02-28T20:37:33.869-08:00
-modified: 2026-03-01T17:14:56.388-08:00
-published: 2026-03-01T17:14:56.388-08:00
+modified: 2026-03-01T17:41:57.316-08:00
+published: 2026-03-01T17:41:57.316-08:00
 tags:
   - quartz
   - website
 cssclasses: ""
 ---
 
-I welcome inquiries about open scholarship, AI literacy, library innovation, or potential collaborations.
-
----
+I welcome inquiries about open scholarship, artificial intelligence, library-related instruction or potential collaborations.
 
 **Email:** [christianschmidt@uvic.ca](mailto:christianschmidt@uvic.ca)
 
@@ -24,3 +22,4 @@ I welcome inquiries about open scholarship, AI literacy, library innovation, or 
 **Mastodon:** [@Dieter_Boolean@openbiblio.social](https://openbiblio.social/@Dieter_Boolean)
 
 **UVic Profile:** [University of Victoria Libraries](https://www.uvic.ca/library/visit-and-contact/find-a-librarian/profiles/schmidt-christian.php)
+

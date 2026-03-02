@@ -3,41 +3,35 @@ publish: true
 permalink: /Online_Pages/Projects.md
 title: Projects
 created: 2026-02-28T17:53:09.298-08:00
-modified: 2026-02-28T17:53:09.298-08:00
-published: 2026-02-28T17:53:09.298-08:00
-tags:
-  - quartz
-  - website
+modified: 2026-03-01T17:38:56.076-08:00
+published: 2026-03-01T17:38:56.076-08:00
 cssclasses: ""
 ---
 
-# Projects & Service
+# Current
 
-## Current
-
-### Kula: Library Futures Academy
+## Kula: Library Futures Academy
 _Librarian Research Associate | University of Victoria Libraries | Jan 2025–present_
 
 Research and development at the intersection of libraries, emerging technologies, and public knowledge infrastructure.
 
-### Community of Practice on Librarian AI Application
-_Co-Chair | University of Victoria Libraries | May 2024–present_
+## Community of Practice on Librarian AI Application
+_Co-Chair | University of Victoria Libraries | May 2024–Dec 2024_
 
 Building a collaborative space for librarians to explore, evaluate, and apply AI tools in library practice.
 
-### IFLA Special Interest Group on AI
-_Associated Member | International Federation of Library Associations | Apr 2023–present_
-
-Contributing to the international conversation on how libraries engage with artificial intelligence.
-
 ---
-
 ## Past
 
 ### Artificial Intelligence Literacy Task Group
 _Chair | University of Victoria Libraries | May 2023–Dec 2023_
 
 Led the development of AI literacy frameworks and resources for the UVic Libraries community.
+
+### IFLA Special Interest Group on AI
+_Associated Member | International Federation of Library Associations | Apr 2023–Dec 2024_
+
+Contributing to the international conversation on how libraries engage with artificial intelligence.
 
 ### Acquisition Consortium for Academic Libraries
 _Vice Chair | Saxony, Germany | Feb 2019–Apr 2021_
