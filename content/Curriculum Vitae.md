@@ -1,10 +1,6 @@
 ---
 publish: true
-permalink: /Curriculum Vitae.md
 title: Curriculum Vitae
-created: 2026-02-28T17:31:04.260-08:00
-modified: 2026-03-01T17:58:33.650-08:00
-published: 2026-03-01T17:58:33.650-08:00
 cssclasses: ""
 ---
 

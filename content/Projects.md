@@ -1,10 +1,6 @@
 ---
 publish: true
-permalink: /Projects.md
 title: Projects
-created: 2026-02-28T17:53:09.298-08:00
-modified: 2026-03-01T17:59:06.605-08:00
-published: 2026-03-01T17:59:06.605-08:00
 cssclasses: ""
 ---
 

@@ -1,10 +1,6 @@
 ---
 publish: true
-permalink: /index.md
 title: index
-created: 2026-03-01T18:06:26.635-08:00
-modified: 2026-03-01T18:19:02.787-08:00
-published: 2026-03-01T18:19:02.787-08:00
 cssclasses: ""
 ---
 

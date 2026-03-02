@@ -1,10 +1,6 @@
 ---
 publish: true
-permalink: /Contact.md
 title: Contact
-created: 2026-02-28T20:37:33.869-08:00
-modified: 2026-03-01T17:46:30.635-08:00
-published: 2026-03-01T17:46:30.635-08:00
 cssclasses: ""
 ---
 

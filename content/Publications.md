@@ -1,10 +1,6 @@
 ---
 publish: true
-permalink: /Publications.md
 title: Publications
-created: 2026-02-28T17:52:57.515-08:00
-modified: 2026-03-01T17:59:21.200-08:00
-published: 2026-03-01T17:59:21.200-08:00
 cssclasses: ""
 ---
 

@@ -1,10 +1,6 @@
 ---
 publish: true
-permalink: /Teaching.md
 title: Teaching
-created: 2026-02-28T17:53:03.510-08:00
-modified: 2026-03-01T17:59:49.361-08:00
-published: 2026-03-01T17:59:49.361-08:00
 cssclasses: ""
 ---
 
