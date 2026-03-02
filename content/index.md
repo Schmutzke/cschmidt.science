@@ -3,8 +3,8 @@ publish: true
 permalink: /index.md
 title: index
 created: 2026-03-01T18:06:26.635-08:00
-modified: 2026-03-01T18:06:26.635-08:00
-published: 2026-03-01T18:06:26.635-08:00
+modified: 2026-03-01T18:19:02.787-08:00
+published: 2026-03-01T18:19:02.787-08:00
 cssclasses: ""
 ---
 
@@ -40,14 +40,7 @@ Libraries are more than collections — they are the infrastructure of an inform
 Knowledge only remains a common good if it endures. I teach digitalization and long-term preservation, and my work in digital library innovation focuses on ensuring that today's scholarship remains accessible for future generations.
 
 ---
-
-## Selected Publications
-
-- Schmidt, C. (2019). [Homeless People as Library Patrons](https://doi.org/10.18452/20199). In *Public Library 2030*.
-- Schmidt, C. (2023). [UVic Libraries, AI & Student Success](http://hdl.handle.net/1828/15694). *CIRCULATION*, Fall 2023.
-- Schmidt, C. (2019). [Fake Science … and how libraries can intervene](https://nbn-resolving.org/urn:nbn:de:0290-opus4-168032). *BuB*, 71(4).
-
-→ [[Publications\|All Publications]] | [[Teaching]] | [[Projects\|Projects & Service]] | [[Curriculum Vitae\|Full CV]]
+→ [[Publications]] | [[Teaching]] | [[Projects]] | [[Curriculum Vitae\|Full CV]]
 
 ---
 
