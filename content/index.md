@@ -4,7 +4,6 @@ title: Christian Schmidt
 cssclasses: ""
 ---
 
-# Christian Schmidt, M.A. LIS
 
 **Librarian Research Associate** | Kula: Library Futures Academy
 University of Victoria Libraries | Victoria, BC
