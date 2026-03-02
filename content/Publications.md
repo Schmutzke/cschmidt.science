@@ -3,12 +3,12 @@ publish: true
 permalink: /Publications.md
 title: Publications
 created: 2026-02-28T17:52:57.515-08:00
-modified: 2026-03-01T17:37:53.839-08:00
-published: 2026-03-01T17:37:53.839-08:00
+modified: 2026-03-01T17:59:21.200-08:00
+published: 2026-03-01T17:59:21.200-08:00
 cssclasses: ""
 ---
 
-# Peer-Reviewed & Edited Volumes
+## Peer-Reviewed & Edited Volumes
 
 1. **Nickerson, E., & Schmidt, C.** (2023). Database review: EconBiz. _Journal of Business & Finance Librarianship_, 28(4), 302–311. [doi.org/10.1080/08963568.2023.2233837](https://doi.org/10.1080/08963568.2023.2233837)
 

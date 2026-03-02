@@ -3,10 +3,12 @@ publish: true
 permalink: /Curriculum Vitae.md
 title: Curriculum Vitae
 created: 2026-02-28T17:31:04.260-08:00
-modified: 2026-03-01T17:46:52.748-08:00
-published: 2026-03-01T17:46:52.748-08:00
+modified: 2026-03-01T17:58:33.650-08:00
+published: 2026-03-01T17:58:33.650-08:00
 cssclasses: ""
 ---
+
+## Who I am
 
 **Christian Schmidt** | M.A. LIS
 
@@ -73,6 +75,5 @@ Vice Chair | _Feb 2019–Apr 2021_
 **Documentation & Office:**
 - Microsoft Office Suite (advanced)
 - LaTeX Typesetting [📜](https://badgr.com/public/assertions/5o7BktlnRK67alpk4w7UVw?identity__email=christianschmidt@uvic.ca) (novice)
-
 ---
 ## Service
