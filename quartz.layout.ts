@@ -32,7 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({ title: "Pages" }),
   ],
   right: [
     Component.Graph(),
@@ -56,7 +56,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({ title: "Pages" }),
   ],
   right: [],
 }
