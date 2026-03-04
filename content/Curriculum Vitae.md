@@ -4,8 +4,6 @@ title: Curriculum Vitae
 cssclasses: ""
 ---
 
-# Curriculum Vitae
-
 ## Degrees
 
 **Master of Arts, Library and Information Science** | 2016–2018
