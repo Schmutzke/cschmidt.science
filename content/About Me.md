@@ -22,4 +22,6 @@ These private libraries and oral histories passed across kitchen tables were my 
 
 After the Berlin Wall came down, I became the first in my family to attend university. Next, I underwent an apprenticeship as a professional bookseller first, a centuries-old traditional trade in Germany. In 2015, I graduated from HTWK Leipzig with a librarian degree. 
 
-Along the way I came to understand that both the independent book trade as well as libraries are institutions built on the conviction that most knowledge should be accessible to everyone. A principle with the potential to hold democratic societies together. That understanding, shaped by both my professional journey and the family history that inspired it, has guided everything I have done since.
+Along the way I came to understand that both the independent book trade as well as libraries are built on the conviction that most knowledge should be accessible to everyone—a principle with the potential to hold democratic societies together. 
+
+That understanding—shaped by both my professional journey and the family history that inspired it—has guided my professional journey ever since.
