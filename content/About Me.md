@@ -50,8 +50,11 @@ Libraries are built on strong values — open access, inclusion, intellectual fr
 Emerging technologies should empower, not exclude. I teach AI Literacy and Prompt Engineering at a German university. My goal is to make sure that understanding AI is not reserved for technologists but available to researchers, students, and the public.
 → [UVic Libraries, AI & Student Success](http://hdl.handle.net/1828/15694)
 ### Libraries as Public Infrastructure
-Libraries are more than collections — they are the infrastructure of an informed society. At [Kula: Library Futures Academy](https://www.uvic.ca/library/about-us/kula-academy/index.php), I work on building the future of libraries as inclusive public institutions, and I publish about open infrastructures built by libraries for public use.
+Libraries are more than collections — they are the infrastructure of an informed society. I publish about open infrastructures built by libraries for public use. 
 → [Database Review: EconBiz](https://doi.org/10.1080/08963568.2023.2233837)
 ### Digital Preservation
 Knowledge only remains a common good if it endures. I teach digitalization and long-term preservation at [Leipzig University of Applied Sciences (HTWK Leipzig)](https://www.htwk-leipzig.de/en/studieren/studiengaenge/masterstudiengaenge/bibliotheks-und-informationswissenschaft-master), ensuring that today's scholarship remains accessible for future generations.
 → [[Teaching\|Digitalization & Long-Term Preservation at HTWK Leipzig]]
+
+### Library Futures
+At [Kula: Library Futures Academy](https://www.uvic.ca/library/about-us/kula-academy/index.php), I work on building the future of libraries as inclusive public institutions.
