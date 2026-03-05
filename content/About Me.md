@@ -16,7 +16,7 @@ My family is blue-collar: farmers, bricklayers, and builders. They are hard work
 
 These private libraries and oral histories passed across kitchen tables were my first encounters with knowledge that challenged dominant narratives. They taught me, long before I had the language for it, that access to information is never just a technical question. It is a political one, as well as one of identity.</p></div>
 
-## From Citizen Librarian to Academic Librarian
+## Where My Journey Took Me
 
 <div class="float-section"><div class="float-right"><img src="/20250504_153334.jpg" alt="And image of Christian Schmidt. He was featured in the local newspaper as an ambassador for Erfurter Herbstlese, the biggest literature festival in East Germany (2007)" /><span class="caption">Ambassador photo in the local newspaper for the biggest literature festival in East Germany (2007). Photo: M. Schmidt, Thüringer Allgemeine</span></div><p>
 
