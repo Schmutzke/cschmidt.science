@@ -6,20 +6,19 @@ cssclasses: ""
 
 ## University Courses
 
-### University of Applied Sciences for Public Administration | Munich, Germany
+### [University of Applied Sciences for Public Administration](https://www.aiv.hfoed.de/en/homepage.html) | Munich, Germany
 _Sessional Instructor | 2023–present_
 
 - **Citizen Science Skills as a Core Competency** (2025–present)
 - **Prompt Engineering for Generative AI** (2024–present)
 - **Introduction to AI Literacy** (2023–2024)
 
-### Leipzig University of Applied Sciences | Leipzig, Germany
+### [Leipzig University of Applied Sciences (HTWK)](https://www.htwk-leipzig.de/en/htwk-leipzig) | Leipzig, Germany
 _Sessional Instructor | 2023–present_
 
 - **Digitalization & Long-Term Preservation** — mandatory for-credit course in the Master of Arts program
 
 ---
-
 ## Library Instruction
 
 ### Specialized Topics | _since 2018_
