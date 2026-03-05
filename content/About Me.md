@@ -10,7 +10,7 @@ I grew up in the 1980s in the German Democratic Republic, a satellite state of t
 
 ## Who Shaped Me
 
-<div class="float-section"><div class="float-right"><img src="/Pasted image 20260304205815.png" alt="My grandfather was a bricklayer (ca. 1963)" /><span class="caption">My grandfather was a bricklayer (ca. 1963). Photo: private collection.</span></div><p>
+<div class="float-section"><div class="float-right"><img src="/Pasted image 20260304205815.png" alt="My grandfather was a bricklayer (ca. 1963)" /><span class="caption">My grandfather (ca. 1963)—farmer, bricklayer and storyteller. Photo: private collection.</span></div><p>
 
 My family is blue-collar: farmers, bricklayers, and builders. They are hard workers, but also avid readers and storytellers who, like those who came before us, continue to pass on their experiences and knowledge across generations.</p><p>On my father's side are the readers. Like my grandmother he always kept shelves filled with books—unusual for a farming family—with narratives different from those we heard at school. They both knew their collections were a family treasure, but one that multiplied through sharing, and so they generously lent their books to friends, neighbors, and community members. They were citizen librarians.</p><p>My mother's side of the family bears the storytellers. Her and my grandfather shared a gift to use anecdotes, fables, and tales to keep memories alive and to teach us how to reflect on the world around us. Their stories were full of humor and wit, but also tragedy and loss, enabling their listeners' imagination, instilling vision and hope.
 
