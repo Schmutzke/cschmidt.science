@@ -6,8 +6,8 @@ cssclasses: ""
 
 
 # Librarian Research Associate 
-**[Kula: Library Futures Academy](https://www.uvic.ca/library/about-us/kula-academy/index.php)**
-**[University of Victoria Libraries](https://www.uvic.ca/library/) | Victoria, BC**
+### **[Kula: Library Futures Academy](https://www.uvic.ca/library/about-us/kula-academy/index.php)**
+#### **[University of Victoria Libraries](https://www.uvic.ca/library/) | Victoria, BC**
 
 ![[Pasted image 20260304175836.png|254]]
 
