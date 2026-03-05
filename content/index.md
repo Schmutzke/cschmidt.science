@@ -1,6 +1,6 @@
 ---
 publish: true
-title: Christian Schmidt
+title: Christian Schmidt — Librarian, Researcher, Educator
 cssclasses: ""
 ---
 
