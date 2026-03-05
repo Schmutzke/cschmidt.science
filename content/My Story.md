@@ -19,5 +19,6 @@ My family is blue-collar: farmers, bricklayers, and builders. They are hard work
 These private libraries and oral histories passed across kitchen tables were my first encounters with knowledge that challenged dominant narratives. They taught me, long before I had the language for it, that access to information is never just a technical question. It is a political one, as well as one of identity.
 
 After the Wall came down, I became the first in my family to attend university. I trained as a librarian—and came to understand that libraries are institutions built on the conviction that most knowledge should be accessible to everyone. A principle with the potential to hold democratic societies together.
+<div class="float-section"><div class="float-right"><img src="/20250504_153334.jpg" alt="And image of Christian Schmidt. He was featured in the local newspaper as an ambassador for Erfurter Herbstlese, the biggest literature festival in East Germany (2007)" /><span class="caption">Ambassador photo in the local newspaper for the biggest literature festival in East Germany (2007). Photo: M. Schmidt, Thüringer Allgemeine</span></div><p>
 
 That understanding, shaped by both my professional journey and the family history that inspired it, has guided everything I have done since.
