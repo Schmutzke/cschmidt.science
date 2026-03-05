@@ -8,10 +8,8 @@ cssclasses: ""
 
 I grew up in the 1980s in the German Democratic Republic, a satellite state of the Soviet Union, where knowledge was a tool of the ruling class. Textbooks, songs, children's literature, school curricula—instruments of ideological indoctrination, carefully curated to shape our understanding of the world. The political class decided for us what was worth knowing. But there was resilience. And it was rooted in stories.
 
-```avatar
-image: Pasted image 20260304205815.png 
-```
-and so they generously lent their books to friends, neighbors, and community members. They were citizen librarians.
+<div style="float: right; margin: 0 0 1em 1.5em; max-width: 250px;"><img src="/Pasted image 20260304205815.png" alt="My grandfather was a bricklayer (ca. 1963)" style="width: 100%; border-radius: 8px; display: block;" /><span style="font-size: 0.85em; color: var(--gray); display: block; text-align: center; margin-top: 0.4em;">My grandfather was a bricklayer (ca. 1963)</span></div>
+My family is blue-collar: farmers, bricklayers, and builders. They are hard workers, but also avid readers and storytellers who, like those who came before us, continue to pass on their experiences and knowledge across generations.
 
 On my father's side are the readers. Like my grandmother he always kept shelves filled with books—unusual for a farming family—with narratives different from those we heard at school. They both knew their collections were a family treasure, but one that multiplied through sharing, and so they generously lent their books to friends, neighbors, and community members. They were citizen librarians.
 
@@ -51,3 +49,6 @@ Libraries are more than collections — they are the infrastructure of an inform
 ### Digital Preservation
 Knowledge only remains a common good if it endures. I teach digitalization and long-term preservation at [Leipzig University of Applied Sciences (HTWK Leipzig)](https://www.htwk-leipzig.de/en/studieren/studiengaenge/masterstudiengaenge/bibliotheks-und-informationswissenschaft-master), ensuring that today's scholarship remains accessible for future generations.
 → [[Teaching\|Digitalization & Long-Term Preservation at HTWK Leipzig]]
+### Mentorship & Professional Development
+My commitment to knowledge as a common good extends to shaping the next generation of library professionals. As a sessional instructor in LIS programs at [HTWK Leipzig](https://www.htwk-leipzig.de/en/studieren/studiengaenge/masterstudiengaenge/bibliotheks-und-informationswissenschaft-master) and [HföD Munich](https://www.aiv.hfoed.de/en/homepage.html), I teach emerging topics — AI literacy, prompt engineering, citizen science, digital preservation — to future librarians and public administrators. I currently co-supervise a Master's thesis at HTWK Leipzig on the impact of LLM-based AI on library search, and I co-chair a [Community of Practice on AI application](https://www.uvic.ca/library/) at UVic Libraries, where I support colleagues in navigating emerging technologies in their daily practice. I see teaching and mentorship as inseparable from my research: the questions my students and colleagues ask shape the problems I work on.
+→ [[Mentorship\|Mentorship & Professional Development]]
