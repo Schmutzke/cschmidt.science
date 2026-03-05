@@ -4,8 +4,6 @@ title: Projects & Service
 cssclasses: ""
 ---
 
-# Projects & Service
-
 ## Current
 
 ### [Kula: Library Futures Academy](https://www.uvic.ca/library/about-us/kula-academy/index.php)

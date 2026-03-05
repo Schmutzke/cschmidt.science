@@ -4,7 +4,7 @@ title: Publications
 cssclasses: ""
 ---
 
-## AI Literacy & Accessibility
+## AI Literacy & Explainability
 
 **Schmidt, C.** (2023). UVic Libraries, AI & Student Success. _CIRCULATION_, Fall 2023, 8–11. [hdl.handle.net/1828/15694](http://hdl.handle.net/1828/15694)
 
@@ -19,7 +19,7 @@ cssclasses: ""
 - **Schmidt, C.** (2022). What can Artificial Intelligence tools currently do? And how might that affect work in academic libraries? [doi.org/10.5281/zenodo.7535858](https://doi.org/10.5281/zenodo.7535858)
 
 ---
-## Digital Preservation
+## Digitization & Digital Preservation
 
 **Schmidt, C.** (2017). Schriftentausch und Digitaler Medienwandel: Eine empirische Untersuchung am Beispiel wissenschaftlicher Spezialbibliotheken. _BibSpider_. ISBN: 978-3-936960-98-3.
 _(Exchange of Publications and the Digital Turn: An Empirical Study Using the Example of Academic Special Libraries)_
