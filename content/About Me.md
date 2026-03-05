@@ -1,6 +1,6 @@
 ---
 publish: true
-title: My Story
+title: About Me
 cssclasses: ""
 ---
 
