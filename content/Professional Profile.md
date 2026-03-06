@@ -37,7 +37,7 @@ One of my publications from 2015 is a futurology that explores the matter in a p
 ### Open Scholarship
 
 Open scholarship is not just a policy — it is a question of equity and inclusion. In my work, I have managed acquisitions & collections of a university library with the purpose of breaking down barriers to information. I have co-chaired a state-wide library consortium tasked to steward the digital turn through its funding. I have overseen the operations of a university press and its strategic development towards an open access publisher. And in my role as an instructor across university programs, I advocate for open practices in learning and teaching.
-→ [[Projects\|Acquisition Consortium for Academic Libraries]]
+→ [[Service\|Acquisition Consortium for Academic Libraries]]
 
 ### Professional Ethics & Critical Intervention
 
