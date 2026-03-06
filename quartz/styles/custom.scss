@@ -3,6 +3,13 @@
 
 // put your custom CSS here!
 
+// Heading colors — accent for contrast
+article {
+  h2, h3 {
+    color: var(--secondary);
+  }
+}
+
 // Floating image with caption
 .float-section {
   overflow: hidden; // establishes block formatting context
