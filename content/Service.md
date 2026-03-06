@@ -14,7 +14,7 @@ _Co-Chair | [University of Victoria Libraries](https://www.uvic.ca/library/) | M
 
 Built a collaborative space for librarians to explore, evaluate, and apply AI tools in library practice.
 
-### [IFLA Special Interest Group on AI](https://www.ifla.org/units/ai/)
+### IFLA Special Interest Group on AI
 _Associated Member | [International Federation of Library Associations](https://www.ifla.org/) | Apr 2023–present_
 
 Contributing to the international conversation on how libraries engage with artificial intelligence.
