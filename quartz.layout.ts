@@ -35,7 +35,23 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({ title: "Pages" }),
+    Component.Explorer({
+      title: "Pages",
+      sortFn: (a, b) => {
+        const order: Record<string, number> = {
+          "My Story": 1,
+          "Curriculum Vitae": 2,
+          "Publications": 3,
+          "Teaching": 4,
+          "Mentorship": 5,
+          "Projects & Service": 6,
+          "Contact": 7,
+        }
+        const orderA = order[a.displayName] ?? 99
+        const orderB = order[b.displayName] ?? 99
+        return orderA - orderB
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -59,7 +75,23 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({ title: "Pages" }),
+    Component.Explorer({
+      title: "Pages",
+      sortFn: (a, b) => {
+        const order: Record<string, number> = {
+          "My Story": 1,
+          "Curriculum Vitae": 2,
+          "Publications": 3,
+          "Teaching": 4,
+          "Mentorship": 5,
+          "Projects & Service": 6,
+          "Contact": 7,
+        }
+        const orderA = order[a.displayName] ?? 99
+        const orderB = order[b.displayName] ?? 99
+        return orderA - orderB
+      },
+    }),
   ],
   right: [],
 }
