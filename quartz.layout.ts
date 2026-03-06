@@ -39,13 +39,15 @@ export const defaultContentPageLayout: PageLayout = {
       title: "Pages",
       sortFn: (a, b) => {
         const order: Record<string, number> = {
-          "My Story": 1,
-          "Curriculum Vitae": 2,
-          "Publications": 3,
-          "Teaching": 4,
-          "Mentorship": 5,
-          "Projects & Service": 6,
-          "Contact": 7,
+          "About Me": 1,
+          "My Work": 2,
+          "Curriculum Vitae": 3,
+          "Publications": 4,
+          "Teaching": 5,
+          "Mentorship": 6,
+          "Memberships": 7,
+          "Service": 8,
+          "Contact Me": 9,
         }
         const orderA = order[a.displayName] ?? 99
         const orderB = order[b.displayName] ?? 99
@@ -79,13 +81,15 @@ export const defaultListPageLayout: PageLayout = {
       title: "Pages",
       sortFn: (a, b) => {
         const order: Record<string, number> = {
-          "My Story": 1,
-          "Curriculum Vitae": 2,
-          "Publications": 3,
-          "Teaching": 4,
-          "Mentorship": 5,
-          "Projects & Service": 6,
-          "Contact": 7,
+          "About Me": 1,
+          "My Work": 2,
+          "Curriculum Vitae": 3,
+          "Publications": 4,
+          "Teaching": 5,
+          "Mentorship": 6,
+          "Memberships": 7,
+          "Service": 8,
+          "Contact Me": 9,
         }
         const orderA = order[a.displayName] ?? 99
         const orderB = order[b.displayName] ?? 99
