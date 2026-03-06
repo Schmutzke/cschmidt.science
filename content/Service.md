@@ -1,6 +1,6 @@
 ---
 publish: true
-title: Projects & Service
+title: Service
 cssclasses: ""
 ---
 
