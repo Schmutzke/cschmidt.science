@@ -1,8 +1,9 @@
 ---
 publish: true
 title: Service
-tags:
+cssclasses: ""
 ---
+
 ## Current
 
 <div class="cv-entry"><div class="cv-header"><span class="cv-role">Community of Practice on Librarian AI Application</span><span class="cv-date">May 2024–present</span></div><div class="cv-institution">Co-Chair | <a href="https://www.uvic.ca/library/">University of Victoria Libraries</a></div><div class="cv-desc">Built a collaborative space for librarians to explore, evaluate, and apply AI tools in library practice.</div></div>

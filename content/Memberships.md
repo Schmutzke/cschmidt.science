@@ -1,8 +1,9 @@
 ---
 publish: true
 title: Memberships
-tags:
+cssclasses: ""
 ---
+
 <div class="cv-entry"><div class="cv-header"><span class="cv-role">British Columbia Library Association (BCLA)</span><span class="cv-date">2026–present</span></div></div>
 
 <div class="cv-entry"><div class="cv-header"><span class="cv-role">Open Science Community Victoria (OSCV)</span><span class="cv-date">2025–present</span></div></div>
