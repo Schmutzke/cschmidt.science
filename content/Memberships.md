@@ -1,17 +1,12 @@
 ---
 publish: true
 title: Memberships
-cssclasses: ""
+tags:
 ---
+<div class="cv-entry"><div class="cv-header"><span class="cv-role">British Columbia Library Association (BCLA)</span><span class="cv-date">2026–present</span></div></div>
 
-### British Columbia Library Association (BCLA)
-2026–present
+<div class="cv-entry"><div class="cv-header"><span class="cv-role">Open Science Community Victoria (OSCV)</span><span class="cv-date">2025–present</span></div></div>
 
-### Open Science Community Victoria (OSCV)
-2025–present
+<div class="cv-entry"><div class="cv-header"><span class="cv-role">Canadian Writing Centres Association (CWCA)</span><span class="cv-date">2024–present</span></div></div>
 
-### Canadian Writing Centres Association (CWCA)
-2024–present
-
-### International Federation of Library Associations (IFLA)
-2023–present
+<div class="cv-entry"><div class="cv-header"><span class="cv-role">International Federation of Library Associations (IFLA)</span><span class="cv-date">2023–present</span></div></div>
