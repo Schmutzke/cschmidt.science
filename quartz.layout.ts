@@ -41,7 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
         const order: Record<string, number> = {
           "About Me": 1,
           "My Work": 2,
-          "Curriculum Vitae": 3,
+          "Education & Positions": 3,
           "Publications": 4,
           "Presentations": 5,
           "Teaching": 6,
@@ -84,7 +84,7 @@ export const defaultListPageLayout: PageLayout = {
         const order: Record<string, number> = {
           "About Me": 1,
           "My Work": 2,
-          "Curriculum Vitae": 3,
+          "Education & Positions": 3,
           "Publications": 4,
           "Presentations": 5,
           "Teaching": 6,

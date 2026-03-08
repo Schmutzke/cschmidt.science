@@ -1,6 +1,6 @@
 ---
 publish: true
-title: Education, Training, and Positions
+title: Education & Positions
 tags:
 ---
 ## Degrees
