@@ -111,6 +111,10 @@ article {
     font-size: 0.95em;
   }
 
+  .pub-title {
+    font-weight: 600;
+  }
+
   .pub-translation {
     font-style: italic;
     font-size: 0.88em;
@@ -122,4 +126,13 @@ article {
     margin-top: 0.3em;
     color: var(--gray);
   }
+}
+
+// Publication title color — distinct from amber/blue accents
+:root[saved-theme="dark"] .pub-title {
+  color: #6DBAA1; // soft teal
+}
+
+:root[saved-theme="light"] .pub-title {
+  color: #2D8B70; // deeper teal
 }
