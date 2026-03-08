@@ -4,6 +4,7 @@ title: Mentorship
 cssclasses: ""
 ---
 
+<p>
 Throughout my career, I have benefited from the generosity of colleagues who took the time to share their knowledge and experience with me. That generosity shaped how I work — and it is something I try to return. Whether through formal teaching, thesis supervision, or an informal conversation over coffee, I believe that mentorship is one of the most direct ways to strengthen our profession.
 
 ## Advocacy For Choosing GLAM Careers
@@ -19,4 +20,3 @@ My commitment to knowledge as a common good extends to shaping the next generati
 ## Supervision Of Theses
 
 I currently co-supervise a Master's thesis at HTWK Leipzig on the impact of LLM-based AI on library search.
-→ [[Teaching]]
