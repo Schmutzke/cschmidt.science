@@ -1,8 +1,9 @@
 ---
 publish: true
 title: Education & Positions
-tags:
+cssclasses: ""
 ---
+
 ## Degrees
 
 <div class="cv-entry"><div class="cv-header"><span class="cv-role">Master of Arts, Library and Information Science</span><span class="cv-date">2016–2018</span></div><div class="cv-institution"><a href="https://www.ibi.hu-berlin.de/en">Berlin School of Library and Information Science (iSchool)</a>, Humboldt University</div><div class="cv-location">Berlin, Germany</div></div>

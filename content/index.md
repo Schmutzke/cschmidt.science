@@ -13,4 +13,4 @@ cssclasses: ""
 I am a librarian, researcher, and educator committed to **knowledge as a common good** — removing barriers to information through open scholarship, AI literacy, and digital library innovation.
 
 ---
-### [[About Me]] | [[Curriculum Vitae\|CV]] | [[Publications]] | [[Presentations]] | [[Teaching]] | [[Mentorship]] | [[Service]] | [[Contact]]
+### [[About Me]] | [[Education, Training, and Positions\|CV]] | [[Publications]] | [[Presentations]] | [[Teaching]] | [[Mentorship]] | [[Service]] | [[Contact]]
