@@ -4,7 +4,7 @@ title: Presentations
 cssclasses: ""
 ---
 
-## AI Literacy & Explainability
+## AI Literacy & Explainability (Selection)
 
 <div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2024). <span class="pub-title">Authorship, Ahoy! Mapping the uncharted waters of AI policies in scholarly communication.</span> <em>University of Victoria Libraries</em>. <a href="https://doi.org/10.5281/zenodo.11237113">doi.org/10.5281/zenodo.11237113</a></div><div class="pub-crossref">Also touches on → <a href="/About-Me#scholarly-communication">Scholarly Communication</a></div></div>
 
