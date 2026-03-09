@@ -128,11 +128,15 @@ article {
   }
 }
 
-// Publication title color — distinct from amber/blue accents
-:root[saved-theme="dark"] .pub-title {
+// Teal accent color — distinct from amber/blue, for scannable titles
+:root[saved-theme="dark"] .pub-title,
+:root[saved-theme="dark"] .cv-role,
+:root[saved-theme="dark"] .cv-courses strong {
   color: #6DBAA1; // soft teal
 }
 
-:root[saved-theme="light"] .pub-title {
+:root[saved-theme="light"] .pub-title,
+:root[saved-theme="light"] .cv-role,
+:root[saved-theme="light"] .cv-courses strong {
   color: #2D8B70; // deeper teal
 }
