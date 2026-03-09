@@ -4,15 +4,6 @@ title: My Work
 cssclasses: ""
 ---
 
-## What I Believe
-
-**Knowledge is a common good.** Libraries are among the most powerful institutions we have for making that belief real — spaces where access to information is not a privilege but a right, regardless of who you are or where you come from.
-
-My work spans open scholarship, AI literacy, and digital innovation in libraries. What connects it all is a commitment to removing barriers — whether they are paywalls, technological divides, or social exclusion — so that knowledge can serve everyone.
-
----
-## What I Work On
-
 ### AI Literacy & Explainability
 
 Emerging technologies should empower, not exclude. I teach AI Literacy and Prompt Engineering at a German university. My goal is to make sure that understanding AI is not reserved for technologists but available to researchers, students, and the public.
