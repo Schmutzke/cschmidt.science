@@ -4,33 +4,33 @@ title: Publications
 cssclasses: ""
 ---
 
-## AI Literacy & Explainability
+## AI Literacy
 
 <div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2023). <span class="pub-title">UVic Libraries, AI & Student Success.</span> <em>CIRCULATION</em>, Fall 2023, 8–11. <a href="http://hdl.handle.net/1828/15694">hdl.handle.net/1828/15694</a></div></div>
 
 See also → [[Presentations]]
 
 ---
-## Digitization & Digital Preservation
+## Digital Preservation
 
 <div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2017). <span class="pub-title">Schriftentausch und Digitaler Medienwandel: Eine empirische Untersuchung am Beispiel wissenschaftlicher Spezialbibliotheken.</span> <em>BibSpider</em>. ISBN: 978-3-936960-98-3.</div><div class="pub-translation">(Exchange of Publications and the Digital Turn: An Empirical Study Using the Example of Academic Special Libraries)</div><div class="pub-crossref">Also touches on → <a href="/About-Me#scholarly-communication">Scholarly Communication</a></div></div>
 
 ---
-## Library Futures
+## Future of Libraries
 
 <div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2015). <span class="pub-title">Der Stipendienantrag — Do or die!</span> In: A. Nikolaizig (Ed.), <em>Zeitreisen in die bibliothekarische Zukunft: 1914–2014–2114</em>. BibSpider. ISBN: 978-3-936960-85-3. (print only)</div></div>
 
 ---
-## Professional Ethics & Critical Intervention
+## Professional Ethics
 
 <div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2019). <span class="pub-title">Obdachlose Menschen als Bibliotheksbesucher.</span> In P. Hauke & B. Lison (Eds.), <em>Öffentliche Bibliothek 2030</em> (pp. 161–172). Bock + Herchen. ISBN: 978-3-88347-304-8. <a href="https://doi.org/10.18452/20199">doi.org/10.18452/20199</a></div><div class="pub-translation">(Homeless People as Library Patrons. In: Public Library 2030)</div><div class="pub-crossref">Also touches on → <a href="/About-Me#truth-knowledge--society">Truth, Knowledge & Society</a></div></div>
 
 ---
 ## Scholarly Communication
 
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2023). <span class="pub-title">Wissenschaftliche Self-Publishing-Verlage im Spannungsfeld von bibliothekarischer Theorie und Praxis: Eine Analyse fachlicher Debatten in der Mailingliste InetBib.</span> <em>Humboldt-Universität zu Berlin</em>. <a href="https://doi.org/10.18452/27508">doi.org/10.18452/27508</a></div><div class="pub-translation">(Academic self-publishing at the intersection of librarian theory and practice)</div><div class="pub-crossref">Also touches on → <a href="/About-Me#professional-ethics--critical-intervention">Professional Ethics & Critical Intervention</a></div></div>
+<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2023). <span class="pub-title">Wissenschaftliche Self-Publishing-Verlage im Spannungsfeld von bibliothekarischer Theorie und Praxis: Eine Analyse fachlicher Debatten in der Mailingliste InetBib.</span> <em>Humboldt-Universität zu Berlin</em>. <a href="https://doi.org/10.18452/27508">doi.org/10.18452/27508</a></div><div class="pub-translation">(Academic self-publishing at the intersection of librarian theory and practice)</div><div class="pub-crossref">Also touches on → <a href="/About-Me#professional-ethics--critical-intervention">Professional Ethics</a></div></div>
 
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2019). <span class="pub-title">Fake Science … und was Bibliotheken dagegen tun können.</span> <em>BuB: Forum Bibliothek und Information</em>, 71(4), 212–215. <a href="https://nbn-resolving.org/urn:nbn:de:0290-opus4-168032">urn:nbn:de:0290-opus4-168032</a></div><div class="pub-translation">(Fake Science … and how libraries can intervene)</div><div class="pub-crossref">Also touches on → <a href="/About-Me#professional-ethics--critical-intervention">Professional Ethics & Critical Intervention</a></div></div>
+<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2019). <span class="pub-title">Fake Science … und was Bibliotheken dagegen tun können.</span> <em>BuB: Forum Bibliothek und Information</em>, 71(4), 212–215. <a href="https://nbn-resolving.org/urn:nbn:de:0290-opus4-168032">urn:nbn:de:0290-opus4-168032</a></div><div class="pub-translation">(Fake Science … and how libraries can intervene)</div><div class="pub-crossref">Also touches on → <a href="/About-Me#professional-ethics--critical-intervention">Professional Ethics</a></div></div>
 
 ---
 ## Truth, Knowledge & Society
