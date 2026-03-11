@@ -44,11 +44,12 @@ export const defaultContentPageLayout: PageLayout = {
           "Education & Positions": 3,
           "Publications": 4,
           "Presentations": 5,
-          "Teaching": 6,
-          "Mentorship": 7,
-          "Memberships": 8,
-          "Service": 9,
-          "Contact Me": 10,
+          "Blog Posts & Public Writing": 6,
+          "Teaching": 7,
+          "Mentorship": 8,
+          "Memberships": 9,
+          "Service": 10,
+          "Contact Me": 11,
         }
         const orderA = order[a.displayName] ?? 99
         const orderB = order[b.displayName] ?? 99
@@ -87,11 +88,12 @@ export const defaultListPageLayout: PageLayout = {
           "Education & Positions": 3,
           "Publications": 4,
           "Presentations": 5,
-          "Teaching": 6,
-          "Mentorship": 7,
-          "Memberships": 8,
-          "Service": 9,
-          "Contact Me": 10,
+          "Blog Posts & Public Writing": 6,
+          "Teaching": 7,
+          "Mentorship": 8,
+          "Memberships": 9,
+          "Service": 10,
+          "Contact Me": 11,
         }
         const orderA = order[a.displayName] ?? 99
         const orderB = order[b.displayName] ?? 99
