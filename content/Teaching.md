@@ -12,23 +12,34 @@ Students sometimes know more than I do in specific areas. I welcome that and ask
 ---
 ## University Courses
 
-> 	[!cv] Sessional Instructor
+> [!cv] Digitalization & Long-Term Preservation
 > *2023–present*
 >
-> [Leipzig University of Applied Sciences (HTWK)](https://www.htwk-leipzig.de/en/htwk-leipzig)
+> Sessional Instructor · [Leipzig University of Applied Sciences (HTWK)](https://www.htwk-leipzig.de/en/htwk-leipzig)
 >
 > Leipzig, Germany
-> - **Digitalization & Long-Term Preservation** — mandatory for-credit course in the Master of Arts program
+> - Mandatory for-credit course in the Master of Arts program
 
-> [!cv] Sessional Instructor
-> *2023–present*
+> [!cv] Citizen Science Skills as a Core Competency
+> *2025–present*
 >
-> [University of Applied Sciences for Public Administration](https://www.aiv.hfoed.de/en/homepage.html)
+> Sessional Instructor · [University of Applied Sciences for Public Administration](https://www.aiv.hfoed.de/en/homepage.html)
 >
 > Munich, Germany
-> - **Citizen Science Skills as a Core Competency** (2025–present)
-> - **Prompt Engineering for Generative AI** (2024–present)
-> - **Introduction to AI Literacy** (2023–2024)
+
+> [!cv] Prompt Engineering for Generative AI
+> *2024–present*
+>
+> Sessional Instructor · [University of Applied Sciences for Public Administration](https://www.aiv.hfoed.de/en/homepage.html)
+>
+> Munich, Germany
+
+> [!cv] Introduction to AI Literacy
+> *2023–2024*
+>
+> Sessional Instructor · [University of Applied Sciences for Public Administration](https://www.aiv.hfoed.de/en/homepage.html)
+>
+> Munich, Germany
 
 ---
 ## Library Instruction
