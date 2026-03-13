@@ -47,9 +47,8 @@ export const defaultContentPageLayout: PageLayout = {
           "Blog Posts & Public Writing": 6,
           "Teaching": 7,
           "Mentorship": 8,
-          "Memberships": 9,
-          "Service": 10,
-          "Contact Me": 11,
+          "Service & Memberships": 9,
+          "Contact Me": 10,
         }
         const orderA = order[a.displayName] ?? 99
         const orderB = order[b.displayName] ?? 99
@@ -58,9 +57,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
   ],
 }
 
@@ -91,9 +88,8 @@ export const defaultListPageLayout: PageLayout = {
           "Blog Posts & Public Writing": 6,
           "Teaching": 7,
           "Mentorship": 8,
-          "Memberships": 9,
-          "Service": 10,
-          "Contact Me": 11,
+          "Service & Memberships": 9,
+          "Contact Me": 10,
         }
         const orderA = order[a.displayName] ?? 99
         const orderB = order[b.displayName] ?? 99
