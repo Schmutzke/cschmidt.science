@@ -17,6 +17,10 @@ Knowledge only remains a common good if it endures. I teach digitalization and l
 
 What will tomorrow's libraries look like? At [Kula: Library Futures Academy](https://www.uvic.ca/library/about-us/kula-academy/index.php), I am part of a team building that future. A playful entry point: my 2015 contribution to [*Zeitreisen in die bibliothekarische Zukunft*](https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=idn%3D1065135726), a futurology imagining libraries in 2114 (German, print only).
 
+## Collaboration & Community
+
+Libraries grow stronger through the networks around them. I teach at two German library schools from Canada, keeping a foot in the professional community that trained me. That connection lets me bridge conversations between European and North American librarianship — on open access policy, AI adoption, citizen science, and how different traditions approach the same problems. At a time when long-standing international partnerships are fracturing, building new ones matters more than ever.
+
 ## Open Scholarship
 
 Open scholarship is a question of equity and inclusion. I managed acquisitions and collections at a university library to break down barriers to information. I co-chaired a [state-wide library consortium](Service) that steered the digital turn through its funding and oversaw a university press and its shift towards open access publishing. As an instructor across university programs, I advocate for open practices in learning and teaching.

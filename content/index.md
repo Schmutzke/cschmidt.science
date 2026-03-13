@@ -1,6 +1,6 @@
 ---
 publish: true
-title: Christian Schmidt, M.A. LIS
+title: Christian Schmidt
 description: Librarian, researcher, and educator at the University of Victoria. Open scholarship, AI literacy, and digital library innovation.
 cssclasses: ""
 ---
@@ -11,7 +11,7 @@ cssclasses: ""
 
 ![[Pasted image 20260304175836.png|254]]
 
-**Knowledge is a common good.** Libraries are among the most powerful institutions we have for making that belief real. Access to information is not a privilege but a right, regardless of who you are or where you come from. My work spans open scholarship, AI literacy, and digital innovation in libraries. The goal: removing barriers so that knowledge can serve everyone.
+I grew up in a country where the state decided what was worth knowing. That experience turned into a career built on the opposite conviction: **most knowledge should be accessible to all.** I research how libraries can make that real — through open scholarship, community-driven collections, and critical reflection on the profession's own standards. At [Kula: Library Futures Academy](https://www.uvic.ca/library/about-us/kula-academy/index.php), that question drives everything I do.
 
 ---
 ### [[About Me]] | [[My Work]] | [[Education, Training, and Positions\|CV]] | [[Publications]] | [[Teaching]] | [[Contact]]
