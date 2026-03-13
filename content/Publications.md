@@ -7,40 +7,58 @@ cssclasses: ""
 
 ## AI Literacy
 
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2023). <span class="pub-title">UVic Libraries, AI & Student Success.</span> <em>CIRCULATION</em>, Fall 2023, 8–11. <a href="http://hdl.handle.net/1828/15694">hdl.handle.net/1828/15694</a></div></div>
-
-See also → [[Presentations]]
+> [!pub] UVic Libraries, AI & Student Success
+> **Schmidt, C.** (2023). *CIRCULATION*, Fall 2023, 8–11. [hdl.handle.net/1828/15694](http://hdl.handle.net/1828/15694)
 
 ---
-## Digital Preservation
+## Digital Innovation
 
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2017). <span class="pub-title">Schriftentausch und Digitaler Medienwandel: Eine empirische Untersuchung am Beispiel wissenschaftlicher Spezialbibliotheken.</span> <em>BibSpider</em>. ISBN: 978-3-936960-98-3.</div><div class="pub-translation">(Exchange of Publications and the Digital Turn: An Empirical Study Using the Example of Academic Special Libraries)</div><div class="pub-crossref">Also touches on → <a href="/My-Work#scholarly-communication">Scholarly Communication</a></div></div>
+> [!pub] Schriftentausch und Digitaler Medienwandel: Eine empirische Untersuchung am Beispiel wissenschaftlicher Spezialbibliotheken
+> **Schmidt, C.** (2017). *BibSpider*. ISBN: 978-3-936960-98-3.
+>
+> *(Exchange of Publications and the Digital Turn: An Empirical Study Using the Example of Academic Special Libraries)*
 
 ---
 ## Future of Libraries
 
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2015). <span class="pub-title">Der Stipendienantrag — Do or die!</span> In: A. Nikolaizig (Ed.), <em>Zeitreisen in die bibliothekarische Zukunft: 1914–2014–2114</em>. BibSpider. ISBN: 978-3-936960-85-3. Also available via <a href="https://doi.org/10.5281/ZENODO.18948377">Zenodo</a>.</div></div>
-
----
-## Professional Ethics
-
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2019). <span class="pub-title">Obdachlose Menschen als Bibliotheksbesucher.</span> In P. Hauke & B. Lison (Eds.), <em>Öffentliche Bibliothek 2030</em> (pp. 161–172). Bock + Herchen. ISBN: 978-3-88347-304-8. <a href="https://doi.org/10.18452/20199">doi.org/10.18452/20199</a></div><div class="pub-translation">(Homeless People as Library Patrons. In: Public Library 2030)</div><div class="pub-crossref">Also touches on → <a href="/My-Work#truth-knowledge--society">Truth, Knowledge & Society</a></div></div>
+> [!pub] Der Stipendienantrag — Do or die!
+> **Schmidt, C.** (2015). In: A. Nikolaizig (Ed.), *Zeitreisen in die bibliothekarische Zukunft: 1914–2014–2114*. BibSpider. ISBN: 978-3-936960-85-3. Also available via [Zenodo](https://doi.org/10.5281/ZENODO.18948377).
 
 ---
 ## Scholarly Communication
 
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2023). <span class="pub-title">Wissenschaftliche Self-Publishing-Verlage im Spannungsfeld von bibliothekarischer Theorie und Praxis: Eine Analyse fachlicher Debatten in der Mailingliste InetBib.</span> <em>Humboldt-Universität zu Berlin</em>. <a href="https://doi.org/10.18452/27508">doi.org/10.18452/27508</a></div><div class="pub-translation">(Academic self-publishing at the intersection of librarian theory and practice)</div><div class="pub-crossref">Also touches on → <a href="/My-Work#professional-ethics">Professional Ethics</a></div></div>
+> [!pub] Wissenschaftliche Self-Publishing-Verlage im Spannungsfeld von bibliothekarischer Theorie und Praxis
+> **Schmidt, C.** (2023). *Humboldt-Universität zu Berlin*. [doi.org/10.18452/27508](https://doi.org/10.18452/27508)
+>
+> *(Academic self-publishing at the intersection of librarian theory and practice)*
 
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2019). <span class="pub-title">Fake Science … und was Bibliotheken dagegen tun können.</span> <em>BuB: Forum Bibliothek und Information</em>, 71(4), 212–215. <a href="https://nbn-resolving.org/urn:nbn:de:0290-opus4-168032">urn:nbn:de:0290-opus4-168032</a>. Also available via <a href="https://nbn-resolving.org/urn:nbn:de:bsz:ch1-qucosa2-383652">TU Chemnitz Repository</a>.</div><div class="pub-translation">(Fake Science … and how libraries can intervene)</div><div class="pub-crossref">Also touches on → <a href="/My-Work#professional-ethics">Professional Ethics</a></div></div>
+> [!pub] Fake Science … und was Bibliotheken dagegen tun können
+> **Schmidt, C.** (2019). *BuB: Forum Bibliothek und Information*, 71(4), 212–215. [urn:nbn:de:0290-opus4-168032](https://nbn-resolving.org/urn:nbn:de:0290-opus4-168032). Also available via [TU Chemnitz Repository](https://nbn-resolving.org/urn:nbn:de:bsz:ch1-qucosa2-383652).
+>
+> *(Fake Science … and how libraries can intervene)*
 
 ---
 ## Truth, Knowledge & Society
 
-<div class="pub-entry"><div class="pub-citation"><strong>Nickerson, E., & Schmidt, C.</strong> (2023). <span class="pub-title">Database review: EconBiz.</span> <em>Journal of Business & Finance Librarianship</em>, 28(4), 302–311. <a href="https://doi.org/10.1080/08963568.2023.2233837">doi.org/10.1080/08963568.2023.2233837</a></div></div>
+> [!pub] Save Troy: Liberate The Library
+> **Schmidt, C.** (2026). In: *Bibliothek & Gesellschaft*. [bibliothekundgesellschaft.de/2026/02/01/save-troy-liberate-the-library]([http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-108662](https://www.bibliothekundgesellschaft.de/2026/02/01/save-troy-liberate-the-library/))
 
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2013). <span class="pub-title">Einmischen, mitmischen, durchmischen.</span> In: <em>Wissenswelten Leipziger Bibliotheken</em>. <a href="http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-108662">urn:nbn:de:bsz:15-qucosa-108662</a></div><div class="pub-translation">(A portrait of the feminist library MONAliesA in Leipzig)</div></div>
+> [!pub] Obdachlose Menschen als Bibliotheksbesucher
+> **Schmidt, C.** (2019). In P. Hauke & B. Lison (Eds.), *Öffentliche Bibliothek 2030* (pp. 161–172). Bock + Herchen. ISBN: 978-3-88347-304-8. [doi.org/10.18452/20199](https://doi.org/10.18452/20199)
+>
+> *(Homeless People as Library Patrons. In: Public Library 2030)*
 
-<div class="pub-entry"><div class="pub-citation"><strong>Schmidt, C.</strong> (2013). <span class="pub-title">Für Menschen ohne Augenlicht.</span> In: <em>Wissenswelten Leipziger Bibliotheken</em>. <a href="http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-108662">urn:nbn:de:bsz:15-qucosa-108662</a></div><div class="pub-translation">(A portrait of the Deutsche Zentralbücherei für Blinde — the German Central Library for the Blind)</div></div>
+> [!pub] Einmischen, mitmischen, durchmischen
+> **Schmidt, C.** (2013). In: *Wissenswelten Leipziger Bibliotheken*. [urn:nbn:de:bsz:15-qucosa-108662](http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-108662)
+>
+> *(A portrait of the feminist library MONAliesA in Leipzig)*
 
+> [!pub] Für Menschen ohne Augenlicht
+> **Schmidt, C.** (2013). In: *Wissenswelten Leipziger Bibliotheken*. [urn:nbn:de:bsz:15-qucosa-108662](http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-108662)
+>
+> *(A portrait of the Deutsche Zentralbücherei für Blinde — the German Central Library for the Blind)*
 
-See also → [[Blog Posts & Public Writing]]
+## Other
+
+> [!pub] Database review: EconBiz
+> **Nickerson, E., & Schmidt, C.** (2023). *Journal of Business & Finance Librarianship*, 28(4), 302–311. [doi.org/10.1080/08963568.2023.2233837](https://doi.org/10.1080/08963568.2023.2233837)
