@@ -129,13 +129,13 @@ article {
 }
 
 // Callout-based card: CV entries
-.callout[data-callout="cv"] {
+blockquote.callout[data-callout="cv"] {
   border-left: 3px solid var(--secondary);
   background: var(--lightgray);
   border-radius: 0 6px 6px 0;
   padding: 0.75em 1em;
   margin-bottom: 0.75em;
-  position: relative;
+  position: relative !important;
 
   // Remove default callout styling
   &.callout {
@@ -169,14 +169,14 @@ article {
 
     // First paragraph: date — pull up to title line
     > p:first-child {
-      position: absolute;
-      top: 0.75em;
-      right: 1em;
-      color: var(--secondary);
-      font-style: italic;
-      font-size: 0.9em;
-      margin: 0;
-      white-space: nowrap;
+      position: absolute !important;
+      top: 0.75em !important;
+      right: 1em !important;
+      color: var(--secondary) !important;
+      font-style: italic !important;
+      font-size: 0.9em !important;
+      margin: 0 !important;
+      white-space: nowrap !important;
     }
 
     // Second paragraph: institution
