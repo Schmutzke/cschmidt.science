@@ -197,12 +197,65 @@ article {
   }
 }
 
+// Callout-based card: Publication/presentation entries
+.callout[data-callout="pub"] {
+  border-left: 3px solid var(--secondary);
+  background: var(--lightgray);
+  border-radius: 0 6px 6px 0;
+  padding: 0.75em 1em;
+  margin-bottom: 0.75em;
+
+  &.callout {
+    border: none;
+    border-left: 3px solid var(--secondary);
+    --callout-color: none;
+  }
+
+  .callout-title {
+    padding: 0;
+
+    .callout-icon { display: none; }
+
+    .callout-title-inner {
+      font-weight: 600;
+      font-size: 0.95em;
+    }
+  }
+
+  .callout-content {
+    padding: 0 !important;
+
+    > p {
+      margin: 0.15em 0 0 0 !important;
+      padding: 0 !important;
+      font-size: 0.95em;
+    }
+
+    // First paragraph: citation details (author, year, venue)
+    > p:first-child {
+      margin: 0.2em 0 0 0 !important;
+    }
+
+    // Translation line (italic, smaller)
+    > p em:only-child {
+      font-size: 0.88em;
+    }
+
+    // Cross-reference line (small, gray)
+    > p:last-child:not(:first-child) {
+      font-size: 0.82em;
+      color: var(--gray);
+    }
+  }
+}
+
 // Teal accent color — distinct from amber/blue, for scannable titles
 :root[saved-theme="dark"] .pub-title,
 :root[saved-theme="dark"] .cv-role,
 :root[saved-theme="dark"] .cv-courses strong,
 :root[saved-theme="dark"] .callout[data-callout="cv"] .callout-title-inner,
-:root[saved-theme="dark"] .callout[data-callout="cv"] ul strong {
+:root[saved-theme="dark"] .callout[data-callout="cv"] ul strong,
+:root[saved-theme="dark"] .callout[data-callout="pub"] .callout-title-inner {
   color: #6DBAA1; // soft teal
 }
 
@@ -210,6 +263,7 @@ article {
 :root[saved-theme="light"] .cv-role,
 :root[saved-theme="light"] .cv-courses strong,
 :root[saved-theme="light"] .callout[data-callout="cv"] .callout-title-inner,
-:root[saved-theme="light"] .callout[data-callout="cv"] ul strong {
+:root[saved-theme="light"] .callout[data-callout="cv"] ul strong,
+:root[saved-theme="light"] .callout[data-callout="pub"] .callout-title-inner {
   color: #2D8B70; // deeper teal
 }
