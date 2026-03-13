@@ -17,6 +17,4 @@ My family is blue-collar: farmers, bricklayers, and builders. Hard workers, but 
 
 <div class="float-section"><div class="float-right"><img src="/20250504_153334.jpg" alt="And image of Christian Schmidt. He was featured in the local newspaper as an ambassador for Erfurter Herbstlese, the biggest literature festival in East Germany (2007)" /><span class="caption">Ambassador photo in the local newspaper for the biggest literature festival in East Germany (2007). Photo: M. Schmidt, Thüringer Allgemeine</span></div><p>
 
-After the Wall came down, I became the first in my family to attend university. I then trained as a professional bookseller — a centuries-old trade in Germany. In 2015, I graduated from HTWK Leipzig with a librarian degree.
-
-Along the way I came to understand that both the independent book trade and libraries are built on the conviction that knowledge should be accessible to everyone.
+After the Wall came down, I became the first in my family to attend university. I then trained as a professional bookseller — a centuries-old trade in Germany. In 2015, I graduated from HTWK Leipzig with a librarian degree.</p><p>Along the way I came to understand that both the independent book trade and libraries are built on the conviction that knowledge should be accessible to everyone.</p></div>

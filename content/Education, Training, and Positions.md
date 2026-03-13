@@ -28,6 +28,6 @@ cssclasses: ""
 
 <div class="cv-entry"><div class="cv-header"><span class="cv-role">Acquisitions & Cataloging Librarian</span><span class="cv-date">Apr 2015–Jan 2019</span></div><div class="cv-institution"><a href="https://www.htwk-leipzig.de/en/htwk-leipzig">Leipzig University of Applied Sciences (HTWK) Library</a></div><div class="cv-location">Leipzig, Germany</div></div>
 
-<div class="cv-entry"><div class="cv-header"><span class="cv-role">E-Book Sales Representative, Academic Libraries</span><span class="cv-date">Apr 2008–Oct 2010</span></div><div class="cv-institution"><a href="https://www.htwk-leipzig.de/en/htwk-leipzig">Missing Link International Booksellers</a></div><div class="cv-location">Bremen, Germany</div></div>
+<div class="cv-entry"><div class="cv-header"><span class="cv-role">E-Book Sales Representative, Academic Libraries</span><span class="cv-date">Apr 2008–Oct 2010</span></div><div class="cv-institution">Missing Link International Booksellers</div><div class="cv-location">Bremen, Germany</div></div>
 
-<div class="cv-entry"><div class="cv-header"><span class="cv-role">Professional Bookseller</span><span class="cv-date">Aug 2003–Mar 2008</span></div><div class="cv-institution"><a href="https://www.htwk-leipzig.de/en/htwk-leipzig">Buch Habel Booksellers</a></div><div class="cv-location">Erfurt, Germany</div></div>
+<div class="cv-entry"><div class="cv-header"><span class="cv-role">Professional Bookseller</span><span class="cv-date">Aug 2003–Mar 2008</span></div><div class="cv-institution">Buch Habel Booksellers</div><div class="cv-location">Erfurt, Germany</div></div>
