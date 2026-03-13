@@ -13,9 +13,12 @@ Students sometimes know more than I do in specific areas. I welcome that and ask
 ## University Courses
 
 > [!cv] Sessional Instructor
+> 
 > 2023–present
+> 
 > [Leipzig University of Applied Sciences (HTWK)](https://www.htwk-leipzig.de/en/htwk-leipzig)
 > Leipzig, Germany
+> 
 > - **Digitalization & Long-Term Preservation** — mandatory for-credit course in the Master of Arts program
 
 > [!cv] Sessional Instructor
