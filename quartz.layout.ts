@@ -43,16 +43,15 @@ export const defaultContentPageLayout: PageLayout = {
       title: "Pages",
       sortFn: (a, b) => {
         const order: Record<string, number> = {
-          "About Me": 1,
-          "My Work": 2,
-          "Education & Positions": 3,
-          "Publications": 4,
-          "Presentations": 5,
-          "Blog Posts & Public Writing": 6,
-          "Teaching": 7,
-          "Mentorship": 8,
-          "Service & Memberships": 9,
-          "Contact Me": 10,
+          "My Work": 1,
+          "Education & Positions": 2,
+          "Publications": 3,
+          "Presentations": 4,
+          "Blog Posts & Public Writing": 5,
+          "Teaching": 6,
+          "Mentorship": 7,
+          "Service & Memberships": 8,
+          "Contact Me": 9,
         }
         const orderA = order[a.displayName] ?? 99
         const orderB = order[b.displayName] ?? 99
@@ -84,16 +83,15 @@ export const defaultListPageLayout: PageLayout = {
       title: "Pages",
       sortFn: (a, b) => {
         const order: Record<string, number> = {
-          "About Me": 1,
-          "My Work": 2,
-          "Education & Positions": 3,
-          "Publications": 4,
-          "Presentations": 5,
-          "Blog Posts & Public Writing": 6,
-          "Teaching": 7,
-          "Mentorship": 8,
-          "Service & Memberships": 9,
-          "Contact Me": 10,
+          "My Work": 1,
+          "Education & Positions": 2,
+          "Publications": 3,
+          "Presentations": 4,
+          "Blog Posts & Public Writing": 5,
+          "Teaching": 6,
+          "Mentorship": 7,
+          "Service & Memberships": 8,
+          "Contact Me": 9,
         }
         const orderA = order[a.displayName] ?? 99
         const orderB = order[b.displayName] ?? 99
