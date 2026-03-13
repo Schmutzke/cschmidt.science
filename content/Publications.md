@@ -1,6 +1,7 @@
 ---
 publish: true
 title: Publications
+description: Peer-reviewed articles, book chapters, and theses on open scholarship, AI literacy, professional ethics, and library science.
 cssclasses: ""
 ---
 

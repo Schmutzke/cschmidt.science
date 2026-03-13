@@ -1,6 +1,7 @@
 ---
 publish: true
 title: Contact Me
+description: Email, social media, and professional profiles for Christian Schmidt.
 cssclasses: ""
 ---
 

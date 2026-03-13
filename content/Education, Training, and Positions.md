@@ -1,6 +1,7 @@
 ---
 publish: true
 title: Education & Positions
+description: Degrees, professional training, and positions held in libraries, publishing, and the book trade.
 cssclasses: ""
 ---
 

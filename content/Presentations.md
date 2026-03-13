@@ -1,6 +1,7 @@
 ---
 publish: true
 title: Presentations
+description: Conference talks and invited presentations on AI in libraries, open access, digital preservation, and scholarly communication.
 cssclasses: ""
 ---
 
