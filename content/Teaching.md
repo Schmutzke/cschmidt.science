@@ -13,17 +13,18 @@ Students sometimes know more than I do in specific areas. I welcome that and ask
 ## University Courses
 
 > [!cv] Sessional Instructor
-> 
-> 2023–present
-> 
+> *2023–present*
+>
 > [Leipzig University of Applied Sciences (HTWK)](https://www.htwk-leipzig.de/en/htwk-leipzig)
+>
 > Leipzig, Germany
-> 
 > - **Digitalization & Long-Term Preservation** — mandatory for-credit course in the Master of Arts program
 
 > [!cv] Sessional Instructor
-> 2023–present
+> *2023–present*
+>
 > [University of Applied Sciences for Public Administration](https://www.aiv.hfoed.de/en/homepage.html)
+>
 > Munich, Germany
 > - **Citizen Science Skills as a Core Competency** (2025–present)
 > - **Prompt Engineering for Generative AI** (2024–present)
@@ -33,7 +34,8 @@ Students sometimes know more than I do in specific areas. I welcome that and ask
 ## Library Instruction
 
 > [!cv] Workshops & Guest Lectures
-> 2015–present
+> *2015–present*
+>
 > [University of Victoria Libraries](https://www.uvic.ca/library/) and previous institutions
 > - **Generative AI Literacy & Academic AI Tools**
 > - **Prompt Engineering**
