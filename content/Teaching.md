@@ -19,30 +19,22 @@ I pay close attention to the needs of neurodivergent and first-generation studen
 > *2023–present*
 > 
 > Mandatory for-credit course in the Library and Information Studies Master of Arts program at
-> [Leipzig University of Applied Sciences (HTWK)](https://www.htwk-leipzig.de/en/htwk-leipzig)
-> 
-> Leipzig, Germany
+> [Leipzig University of Applied Sciences (HTWK)](https://www.htwk-leipzig.de/en/htwk-leipzig), Leipzig, Germany
 
 > [!cv] Citizen Science Skills as a Core Competency
 > *2025–present*
 > 
-> [University of Applied Sciences for Public Administration in Bavaria](https://www.aiv.hfoed.de/en/homepage.html)
-> 
-> Munich, Germany
+> [University of Applied Sciences for Public Administration in Bavaria](https://www.aiv.hfoed.de/en/homepage.html), Munich, Germany
 
 > [!cv] Prompt Engineering for Generative AI
 > *2024–present*
 > 
-> [University of Applied Sciences for Public Administration in Bavaria](https://www.aiv.hfoed.de/en/homepage.html)
-> 
-> Munich, Germany
+> [University of Applied Sciences for Public Administration in Bavaria](https://www.aiv.hfoed.de/en/homepage.html), Munich, Germany
 
 > [!cv] Introduction to AI Literacy
 > *2023–2024*
 > 
->  [University of Applied Sciences for Public Administration Bavaria](https://www.aiv.hfoed.de/en/homepage.html)
->  
-> Munich, Germany
+>  [University of Applied Sciences for Public Administration Bavaria](https://www.aiv.hfoed.de/en/homepage.html), Munich, Germany
 
 ---
 ## Library Instruction
