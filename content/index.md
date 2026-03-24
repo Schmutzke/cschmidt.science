@@ -20,6 +20,4 @@ description: Librarian, researcher, and educator at the University of Victoria. 
 
 ---
 
-### [[My Work]] | [[Mentorship]] | [[Teaching]] | [[Contact]]
-
-### [[Degrees & Positions Held|CV]] | [[Publications]] | [[Presentations]] | [[Blog Posts & Public Writing|Blog & Writing]] | [[Service|Service & Memberships]]
+[[My Work]] | [[Mentorship]] | [[Teaching]] | [[Contact]] | [[Degrees & Positions]] | [[Publications]] | [[Presentations]] | [[Blog Posts & Public Writing|Blog & Writing]] | [[Service|Service & Memberships]]
