@@ -50,6 +50,7 @@
   <a href="#why-mcm">Why Mid-Century Modernism?</a>
   <a href="#seed-buildings">Seed Buildings</a>
   <a href="#technology">Technology</a>
+  <a href="#linked-data-vision">Linked Data: From Buildings to Biographies</a>
   <a href="#features">Building Feature Checklist &amp; Sources</a>
   <a href="#references">References</a>
 </div>
@@ -102,7 +103,44 @@
 
 <p>This is a <strong>proof-of-concept</strong> developed to support a grant proposal. Contributions submitted through the app are stored persistently in the database.</p>
 
+<!-- ================================================================ -->
+<h2 id="linked-data-vision">Linked Data: From Buildings to Biographies</h2>
+
+<p>The current proof-of-concept connects buildings to geographic and heritage datasets (Wikidata, OpenStreetMap, BC Register of Historic Places). But linked open data can reach further &mdash; from buildings to the people who designed them, and from those people to international knowledge networks that reveal how modernism arrived in Victoria.</p>
+
+<h3>Where the chain works: European &eacute;migr&eacute;s in BC</h3>
+
+<p>Consider <strong>H. Peter Oberlander</strong> (1922&ndash;2008), born in Vienna, who fled the Anschluss in 1938, was interned in Canada, and went on to study urban planning at Harvard under <strong>Walter Gropius</strong> &mdash; the founder of the Bauhaus. Oberlander became Canada's first professor of Urban and Regional Planning at UBC, shaping the intellectual environment in which BC's modernist architects trained.</p>
+
+<p>His linked data trail is rich and fully navigable:</p>
+
+<table>
+  <tr><th>Authority</th><th>Identifier</th><th>What it connects to</th></tr>
+  <tr><td>Wikidata</td><td><a href="https://www.wikidata.org/wiki/Q7176201">Q7176201</a></td><td>Biographical facts, education (Harvard), employer (UBC), citizenship (Austria &rarr; Canada)</td></tr>
+  <tr><td>VIAF</td><td><a href="https://viaf.org/viaf/105861562">105861562</a></td><td>Clusters Library of Congress, GND, and 50+ national authority files into one record</td></tr>
+  <tr><td>GND</td><td><a href="https://d-nb.info/gnd/172678919">172678919</a></td><td>German National Library &mdash; links to German-language publications and archival holdings</td></tr>
+</table>
+
+<p>From Oberlander's GND record, a researcher can reach the German National Library catalogue, which in turn links to the <a href="https://www.bauhaus.de/en/bauhaus-archiv/">Bauhaus-Archiv</a> holdings on Gropius. From Wikidata, the same researcher can trace Oberlander's wife, <strong>Cornelia Hahn Oberlander</strong> (1921&ndash;2021), a landscape architect who also fled Berlin and trained under Gropius &mdash; and whose own Wikidata and authority records form an independent path into the same European modernist network.</p>
+
+<p>Similarly, <strong>Wolfgang Gerson</strong> (1916&ndash;1991), born in Hamburg, a Jewish exile who studied at the Architectural Association in London, arrived in Canada in 1940, and joined UBC's architecture faculty in 1956. His linked data presence spans Wikidata (<a href="https://www.wikidata.org/wiki/Q122835082">Q122835082</a>), VIAF (<a href="https://viaf.org/viaf/311150539">311150539</a>), and Getty ULAN (<a href="https://vocab.getty.edu/page/ulan/500033901">500033901</a>).</p>
+
+<h3>Where the chain breaks: Victoria's own architects</h3>
+
+<p>Now consider <strong>John Wade</strong> (1914&ndash;1997), one of Victoria's most important modernist architects. Wade trained at the <strong>Architectural Association</strong> in London and worked for <strong>Connell, Ward &amp; Lucas</strong> &mdash; one of Britain's leading International Style firms. His Victoria schools (Central Junior Secondary, S.J. Willis, Lansdowne) are described as showing "strong adherence to Bauhaus principles" (<a href="https://exhibits.library.uvic.ca/spotlight/mcm/feature/john-wade-and-partners">UVic Libraries digital exhibit</a>).</p>
+
+<p>Yet Wade has <strong>no linked data presence at all</strong> &mdash; no Wikidata entry, no VIAF record, no GND, no Getty ULAN. His buildings are not in Wikidata. There is no machine-readable path from a Wade-designed school in Victoria to the Architectural Association in London, to Connell Ward &amp; Lucas, or to the broader European modernist network that shaped his practice.</p>
+
+<p>The same is true of <strong>John Di Castri</strong> (1924&ndash;2005), who designed hundreds of modernist buildings across Victoria &mdash; arguably more than any other single architect. He too has zero authority file presence.</p>
+
+<h3>The argument</h3>
+
+<p>The linked data infrastructure exists for prominent international figures like Oberlander and Gerson. It does not exist for regional architects like Wade and Di Castri, whose buildings are the actual fabric of Victoria's modernist heritage. A citizen science inventory that creates structured records with architect attribution would be the <strong>first step</strong> toward connecting these architects &mdash; and through them, Victoria's streetscape &mdash; to international knowledge networks.</p>
+
+<p>The vision: start with a building on Blanshard Street or a school in Saanich, follow the architect's name to a VIAF cluster, and arrive at the Bauhaus-Archiv or the Architectural Association's archives &mdash; tracing how European modernism reached the southern tip of Vancouver Island.</p>
+
 <hr>
+
 
 <!-- ================================================================ -->
 <h2 id="features">Building Feature Checklist &amp; Sources</h2>
