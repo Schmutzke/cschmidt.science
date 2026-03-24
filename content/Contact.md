@@ -2,13 +2,11 @@
 publish: true
 title: Contact Me
 description: Email, social media, and professional profiles for Christian Schmidt.
-cssclasses: ""
 ---
-
 
 I welcome inquiries about open scholarship, artificial intelligence, library-related instruction or potential collaborations.
 
-**Email:** [christianschmidt@uvic.ca](mailto:christianschmidt@uvic.ca)
+**Email:** <christianschmidt@uvic.ca>
 
 **UVic Profile:** [University of Victoria Libraries](https://www.uvic.ca/library/visit-and-contact/find-a-librarian/profiles/schmidt-christian.php)
 
@@ -16,4 +14,4 @@ I welcome inquiries about open scholarship, artificial intelligence, library-rel
 
 **LinkedIn:** [librarianshipahoi](https://www.linkedin.com/in/librarianshipahoi/)
 
-**Mastodon:** [@Dieter_Boolean@openbiblio.social](https://openbiblio.social/@Dieter_Boolean)
+**Mastodon:** [@Dieter\_Boolean@openbiblio.social](https://openbiblio.social/@Dieter_Boolean)

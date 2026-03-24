@@ -2,7 +2,6 @@
 publish: true
 title: Mentorship
 description: Career advocacy, thesis supervision, and teaching in library and information science programs.
-cssclasses: ""
 ---
 
 Throughout my career, I benefited from the generosity of colleagues who shared their knowledge and experience. That generosity shaped how I work. It's something I try to return through formal teaching, thesis supervision, or an informal conversation over coffee. Mentorship is one of the most direct ways to strengthen our profession.
