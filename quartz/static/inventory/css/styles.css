@@ -1,0 +1,436 @@
+/* ==========================================================================
+   Greater Victoria Modernist Building Inventory — Styles
+   ==========================================================================
+   Mobile-first responsive layout. Citizens will be submitting from the street
+   on their phones, so the mobile experience is the primary target.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Reset & base
+   -------------------------------------------------------------------------- */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #f5f5f0;
+}
+
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
+
+#app-header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+#app-header h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+#app-header .subtitle {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Main layout
+   --------------------------------------------------------------------------
+   Mobile: stacked (map then sidebar).
+   Desktop (>768px): side-by-side, map takes 60%, sidebar 40%.
+   -------------------------------------------------------------------------- */
+
+#app-main {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px); /* subtract header height */
+}
+
+#map-container {
+  position: relative;
+  flex: 1 1 50%;
+  min-height: 300px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+#map-instructions {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(44, 62, 80, 0.85);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  z-index: 1000;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+#sidebar {
+  flex: 1 1 50%;
+  overflow-y: auto;
+  background: #fff;
+  border-top: 2px solid #2c3e50;
+}
+
+@media (min-width: 768px) {
+  #app-main {
+    flex-direction: row;
+    height: calc(100vh - 60px);
+  }
+
+  #map-container {
+    flex: 1 1 60%;
+    min-height: auto;
+  }
+
+  #sidebar {
+    flex: 0 0 40%;
+    max-width: 480px;
+    border-top: none;
+    border-left: 2px solid #2c3e50;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar tabs
+   -------------------------------------------------------------------------- */
+
+#sidebar-tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  background: #f8f8f5;
+}
+
+#sidebar-tabs .tab {
+  flex: 1;
+  padding: 10px 8px;
+  border: none;
+  background: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+#sidebar-tabs .tab:hover {
+  color: #2c3e50;
+}
+
+#sidebar-tabs .tab.active {
+  color: #2c3e50;
+  border-bottom-color: #2c3e50;
+}
+
+/* --------------------------------------------------------------------------
+   Tab content
+   -------------------------------------------------------------------------- */
+
+.tab-content {
+  display: none;
+  padding: 16px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.placeholder {
+  color: #888;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+/* --------------------------------------------------------------------------
+   Contribution form
+   -------------------------------------------------------------------------- */
+
+#contribution-form h2 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+#contribution-form fieldset {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+#contribution-form legend {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #555;
+  padding: 0 4px;
+}
+
+#contribution-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+  color: #444;
+}
+
+#contribution-form input[type="text"],
+#contribution-form input[type="email"],
+#contribution-form input[type="number"],
+#contribution-form select,
+#contribution-form textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 3px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+#contribution-form input[readonly] {
+  background: #f0f0f0;
+  color: #666;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-row label {
+  flex: 1;
+}
+
+.checkbox-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 12px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+#form-submit {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #2c3e50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+#form-submit:hover {
+  background: #34495e;
+}
+
+#form-submit:disabled {
+  background: #95a5a6;
+  cursor: not-allowed;
+}
+
+#form-status {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+#form-status.success {
+  color: #27ae60;
+}
+
+#form-status.error {
+  color: #e74c3c;
+}
+
+/* --------------------------------------------------------------------------
+   Inventory list
+   -------------------------------------------------------------------------- */
+
+#inventory-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+#inventory-filters label {
+  flex: 1;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+#inventory-filters select {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  margin-top: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.inventory-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  background: #fafaf8;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.inventory-item:hover {
+  border-color: #2c3e50;
+}
+
+.inventory-item .item-address {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #2c3e50;
+}
+
+.inventory-item .item-features {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 2px;
+}
+
+.inventory-item .item-decade {
+  display: inline-block;
+  background: #2c3e50;
+  color: #fff;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  margin-top: 4px;
+}
+
+.inventory-item .item-date {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 4px;
+}
+
+/* --------------------------------------------------------------------------
+   Linked data panel
+   -------------------------------------------------------------------------- */
+
+#linked-data-panel h2 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #2c3e50;
+}
+
+.linked-data-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.linked-data-card h3 {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #2c3e50;
+}
+
+.linked-data-card .ld-building-name {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.ld-identifier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.85rem;
+}
+
+.ld-identifier:last-child {
+  border-bottom: none;
+}
+
+.ld-identifier .ld-label {
+  color: #555;
+  font-weight: 500;
+}
+
+.ld-identifier a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.ld-identifier a:hover {
+  text-decoration: underline;
+}
+
+.ld-identifier .ld-missing {
+  color: #bbb;
+  font-style: italic;
+}
+
+.ld-explanation {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+/* --------------------------------------------------------------------------
+   Map markers & building footprints
+   -------------------------------------------------------------------------- */
+
+/* Leaflet popup overrides for building info */
+.building-popup {
+  font-size: 0.85rem;
+}
+
+.building-popup .popup-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.building-popup .popup-address {
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.building-popup .popup-link {
+  color: #2980b9;
+  cursor: pointer;
+  text-decoration: underline;
+}
