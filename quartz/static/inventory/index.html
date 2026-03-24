@@ -66,11 +66,15 @@
             <select id="filter-feature">
               <option value="">All features</option>
               <option value="flat_roof">Flat roof</option>
+              <option value="unusual_roof_form">Unusual roof shape</option>
               <option value="ribbon_windows">Ribbon windows</option>
+              <option value="extensive_glazing">Extensive glazing</option>
               <option value="pilotis">Pilotis</option>
-              <option value="curtain_wall">Curtain wall</option>
               <option value="brise_soleil">Brise soleil</option>
+              <option value="decorative_screen">Decorative screen</option>
               <option value="exposed_concrete">Exposed concrete</option>
+              <option value="deep_overhangs">Deep overhangs</option>
+              <option value="expressed_structure">Expressed structure</option>
               <option value="other">Other</option>
             </select>
           </label>
@@ -107,17 +111,22 @@
             </label>
           </fieldset>
 
-          <!-- Style features (checkboxes) -->
+          <!-- Style features (checkboxes with hover tooltips) -->
           <fieldset>
             <legend>Observed Modernist Features</legend>
+            <p class="fieldset-hint">Hover or tap a feature name for a description.</p>
             <div class="checkbox-group">
-              <label><input type="checkbox" name="features" value="flat_roof"> Flat roof</label>
-              <label><input type="checkbox" name="features" value="ribbon_windows"> Ribbon windows</label>
-              <label><input type="checkbox" name="features" value="pilotis"> Pilotis</label>
-              <label><input type="checkbox" name="features" value="curtain_wall"> Curtain wall</label>
-              <label><input type="checkbox" name="features" value="brise_soleil"> Brise soleil</label>
-              <label><input type="checkbox" name="features" value="exposed_concrete"> Exposed concrete</label>
-              <label><input type="checkbox" name="features" value="other"> Other</label>
+              <label title="A roof with no visible slope — the most common modernist roof type."><input type="checkbox" name="features" value="flat_roof"> Flat roof</label>
+              <label title="A butterfly (V-shaped), folded-plate, or dramatically angled roof — distinctive shapes beyond simply flat."><input type="checkbox" name="features" value="unusual_roof_form"> Unusual roof shape</label>
+              <label title="Long, continuous horizontal window bands stretching across the facade."><input type="checkbox" name="features" value="ribbon_windows"> Ribbon windows</label>
+              <label title="Large expanses of glass or floor-to-ceiling windows dominating a wall — the building appears wrapped in glass."><input type="checkbox" name="features" value="extensive_glazing"> Extensive glazing</label>
+              <label title="Columns or stilts that lift the building off the ground, creating open space beneath it."><input type="checkbox" name="features" value="pilotis"> Pilotis</label>
+              <label title="Fins, louvers, or projecting slats attached to the facade to shade windows from the sun."><input type="checkbox" name="features" value="brise_soleil"> Brise soleil</label>
+              <label title="Decorative perforated concrete or metal screens — sometimes called breeze blocks — forming patterned walls."><input type="checkbox" name="features" value="decorative_screen"> Decorative screen</label>
+              <label title="Raw, unfinished concrete surfaces left exposed as a deliberate design choice — not just a concrete building."><input type="checkbox" name="features" value="exposed_concrete"> Exposed concrete</label>
+              <label title="Deep roof overhangs, cantilevered canopies, or upper floors projecting beyond the walls below."><input type="checkbox" name="features" value="deep_overhangs"> Deep overhangs</label>
+              <label title="Posts and beams left visible on the exterior as design elements — the structural skeleton is on display."><input type="checkbox" name="features" value="expressed_structure"> Expressed structure</label>
+              <label title="A feature not listed above — please describe it in the Notes field."><input type="checkbox" name="features" value="other"> Other</label>
             </div>
           </fieldset>
 
@@ -188,9 +197,6 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
           crossorigin=""></script>
-
-  <!-- API base URL — update this to your Oracle Cloud instance -->
-  <script>window.API_BASE = 'https://api.cschmidt.science';</script>
 
   <!-- Application scripts — loaded as modules for clean imports -->
   <script src="js/api.js"></script>
