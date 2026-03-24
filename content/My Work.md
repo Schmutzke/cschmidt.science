@@ -2,8 +2,8 @@
 publish: true
 title: My Work
 description: AI literacy, digital preservation, open scholarship, professional ethics, and library futures. A thematic overview of Christian Schmidt's research and practice.
-tags:
 ---
+
 ## AI Literacy
 
 Emerging technologies should empower, not exclude. I teach AI Literacy and Prompt Engineering at a German university. My goal: understanding AI should not be reserved for technologists but available to researchers, students, and the public. At UVic, I helped shape the library's early response to generative AI, documented in [UVic Libraries, AI & Student Success](http://hdl.handle.net/1828/15694).
@@ -14,7 +14,7 @@ Knowledge only remains a common good if it endures. I teach digitalization and l
 
 ## Future of Libraries
 
-What will tomorrow's libraries look like? At [Kula: Library Futures Academy](https://www.uvic.ca/library/about-us/kula-academy/index.php), I am part of a team building that future. A playful entry point: my 2015 contribution to [*Zeitreisen in die bibliothekarische Zukunft*](https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=idn%3D1065135726), a futurology imagining libraries in 2114 (German, print only).
+What will tomorrow's libraries look like? At [Kula: Library Futures Academy](https://www.uvic.ca/library/about-us/kula-academy/index.php), I am part of a team building that future. A playful entry point: my 2015 contribution to [_Zeitreisen in die bibliothekarische Zukunft_](https://portal.dnb.de/opac.htm?method=simpleSearch\&cqlMode=true\&query=idn%3D1065135726), a futurology imagining libraries in 2114 (German, print only).
 
 ## Collaboration & Community
 
