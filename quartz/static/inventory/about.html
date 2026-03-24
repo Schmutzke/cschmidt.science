@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>About — Greater Victoria Modernist Building Inventory</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px; line-height: 1.65; color: #1a1a1a; background: #f5f5f0;
+      max-width: 760px; margin: 0 auto; padding: 24px 20px 60px;
+    }
+    h1 { font-size: 1.6rem; color: #2c3e50; margin-bottom: 4px; }
+    h2 { font-size: 1.2rem; color: #2c3e50; margin: 28px 0 10px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+    h3 { font-size: 1rem; color: #444; margin: 20px 0 8px; }
+    p { margin-bottom: 12px; }
+    a { color: #2980b9; }
+    a:hover { text-decoration: none; }
+    blockquote { margin: 12px 0; padding: 10px 16px; background: #2c3e50; border-radius: 6px; }
+    blockquote a { color: #fff; font-weight: 600; text-decoration: none; font-size: 1.05rem; }
+    blockquote a:hover { text-decoration: underline; }
+    ul, ol { margin: 0 0 12px 24px; }
+    li { margin-bottom: 4px; }
+    table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.9rem; }
+    th, td { border: 1px solid #ddd; padding: 6px 10px; text-align: left; }
+    th { background: #f0f0ec; font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; }
+    .subtitle { font-size: 0.95rem; color: #555; margin-bottom: 20px; }
+    .ref { margin-bottom: 14px; }
+    .ref strong { color: #333; }
+    .back-link { display: inline-block; margin-top: 24px; padding: 10px 20px; background: #2c3e50; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; }
+    .back-link:hover { background: #34495e; }
+    .section-nav { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+    .section-nav a { display: block; margin: 2px 0; font-size: 0.9rem; }
+    hr { border: none; border-top: 1px solid #ddd; margin: 32px 0; }
+    .design-note { background: #f8f8f5; border-left: 3px solid #2c3e50; padding: 10px 14px; margin: 12px 0; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<h1>Greater Victoria Modernist Building Inventory</h1>
+<p class="subtitle">A citizen science proof-of-concept for documenting mid-century modernist architecture in the Capital Regional District.</p>
+
+<blockquote><a href="/static/inventory/">Launch the Inventory &rarr;</a></blockquote>
+
+<div class="section-nav">
+  <strong>On this page:</strong>
+  <a href="#how-it-works">How It Works</a>
+  <a href="#why-mcm">Why Mid-Century Modernism?</a>
+  <a href="#seed-buildings">Seed Buildings</a>
+  <a href="#technology">Technology</a>
+  <a href="#features">Building Feature Checklist &amp; Sources</a>
+  <a href="#references">References</a>
+</div>
+
+<!-- ================================================================ -->
+<h2 id="how-it-works">How It Works</h2>
+
+<ol>
+  <li><strong>Explore</strong> a map of Greater Victoria centred on the downtown core</li>
+  <li><strong>Click</strong> on a building or location to open the observation form</li>
+  <li><strong>Record</strong> modernist architectural features you observe: flat roofs, ribbon windows, pilotis, extensive glazing, brise soleil, exposed concrete, and more</li>
+  <li><strong>Submit</strong> your observation to the growing community inventory</li>
+</ol>
+
+<p>Each building record connects to three external datasets following <strong>linked open data</strong> principles:</p>
+
+<ul>
+  <li><strong><a href="https://www.wikidata.org/">Wikidata</a></strong> &mdash; structured knowledge about the building (architect, date, heritage status)</li>
+  <li><strong><a href="https://www.openstreetmap.org/">OpenStreetMap</a></strong> &mdash; community-mapped building footprint and location</li>
+  <li><strong><a href="https://apps.nrs.gov.bc.ca/bcrhp/">BC Register of Historic Places</a></strong> &mdash; the provincial heritage register with 1,300+ properties in Greater Victoria</li>
+</ul>
+
+<!-- ================================================================ -->
+<h2 id="why-mcm">Why Mid-Century Modernism?</h2>
+
+<p>Victoria's mid-century modern buildings &mdash; roughly 1945 to 1975 (<a href="https://heritagebc.ca/wp-content/uploads/2020/01/Segger_Martin_ConservGuide_2019.pdf">Segger 2019</a>; <a href="http://winnipegarchitecture.ca/wp-content/uploads/2012/10/CMC-Proceedings_Eng_a.pdf">Algie &amp; Ashby 2007</a>) &mdash; are increasingly at risk. While landmark structures like the <strong>BC Electric Company Building</strong> (1515 Blanshard Street, 1955, Sharp &amp; Thompson, Berwick, Pratt) are recognized on the <a href="https://www.historicplaces.ca/">Canadian Register of Historic Places</a>, hundreds of smaller modernist commercial and residential buildings remain unrecorded (<a href="https://legacy.uvic.ca/gallery/victoriamodern/">Segger 2012&ndash;2017</a>). Many lack heritage protection &mdash; in Victoria, listing on the Heritage Register alone <a href="https://www.victoria.ca/building-business/permits-development-construction/heritage-conservation">does not restrict future actions by an owner</a> &mdash; and face demolition or unsympathetic renovation.</p>
+
+<p>Citizen science offers a way to build a comprehensive inventory faster than any single institution could manage alone (<a href="https://www.tandfonline.com/doi/full/10.1080/13505033.2022.2147299">Orr et al. 2022</a>; <a href="https://dl.acm.org/doi/fullHtml/10.1145/3569092">Bai et al. 2022</a>). Locally, the <a href="https://hallmarkheritagesociety.ca/">Hallmark Heritage Society</a> has compiled archives on over 3,500 buildings through volunteer effort since 1973.</p>
+
+<!-- ================================================================ -->
+<h2 id="seed-buildings">Seed Buildings</h2>
+
+<p>The proof-of-concept includes three example records:</p>
+
+<table>
+  <tr><th>Building</th><th>Decade</th><th>Features</th></tr>
+  <tr><td>BC Electric Company Building, 1515 Blanshard St</td><td>1950s</td><td>Extensive glazing, flat roof</td></tr>
+  <tr><td>McPherson Library, UVic</td><td>1960s</td><td>Exposed concrete, ribbon windows, flat roof</td></tr>
+  <tr><td>Mid-Century Commercial Building, 1060 Fort St</td><td>1960s</td><td>Brise soleil, pilotis, flat roof</td></tr>
+</table>
+
+<!-- ================================================================ -->
+<h2 id="technology">Technology</h2>
+
+<ul>
+  <li><strong>Frontend:</strong> Plain HTML, CSS, and JavaScript with <a href="https://leafletjs.com/">Leaflet.js</a> for mapping. No build step.</li>
+  <li><strong>Backend:</strong> Node.js and Express, deployed on Oracle Cloud (Montreal region).</li>
+  <li><strong>Database:</strong> PostgreSQL + PostGIS running on the same Canadian server. No third-party database services &mdash; all data stays in Canada.</li>
+</ul>
+
+<p>This is a <strong>proof-of-concept</strong> developed to support a grant proposal. Contributions submitted through the app are stored persistently in the database.</p>
+
+<hr>
+
+<!-- ================================================================ -->
+<h2 id="features">Building Feature Checklist &amp; Sources</h2>
+
+<p>The checklist is grounded in established architectural preservation literature, adapted for non-expert observers.</p>
+
+<table>
+  <tr><th>Feature</th><th>Description</th><th>Primary source</th></tr>
+  <tr><td>Flat roof</td><td>A roof with no visible slope</td><td>Le Corbusier (1927); DOCOMOMO</td></tr>
+  <tr><td>Unusual roof shape</td><td>Butterfly, V-shape, folded-plate, or dramatically angled roof</td><td>DOCOMOMO US styles guide</td></tr>
+  <tr><td>Ribbon windows</td><td>Long, continuous horizontal window bands</td><td>Le Corbusier (1927)</td></tr>
+  <tr><td>Extensive glazing</td><td>Large glass walls or floor-to-ceiling windows</td><td>DOCOMOMO International Style definition</td></tr>
+  <tr><td>Pilotis</td><td>Columns lifting the building off the ground</td><td>Le Corbusier (1927)</td></tr>
+  <tr><td>Brise soleil</td><td>Fins, louvers, or projecting slats for sun shading</td><td>Le Corbusier; DOCOMOMO</td></tr>
+  <tr><td>Decorative screen</td><td>Perforated concrete or metal screens (breeze blocks)</td><td>SurveyLA; DOCOMOMO</td></tr>
+  <tr><td>Exposed concrete</td><td>Raw concrete surfaces as a deliberate design choice</td><td>DOCOMOMO Brutalist definition</td></tr>
+  <tr><td>Deep overhangs</td><td>Deep roof overhangs, cantilevered canopies, or projecting upper floors</td><td>NPS Preservation Brief 17</td></tr>
+  <tr><td>Expressed structure</td><td>Visible posts and beams as exterior design elements</td><td>DOCOMOMO; Eichler Homes documentation</td></tr>
+</table>
+
+<h3>Feature list sources</h3>
+
+<div class="ref"><strong>Le Corbusier, "Five Points of a New Architecture" (1927).</strong> The theoretical origin of pilotis, ribbon windows, free facade (extensive glazing), and flat roof. See <a href="https://en.wikipedia.org/wiki/%22Five_Points_of_a_New_Architecture%22">Wikipedia summary</a>.</div>
+
+<div class="ref"><strong>US National Park Service, Preservation Brief 17: "Architectural Character &mdash; Identifying the Visual Aspects of Historic Buildings."</strong> The standard methodology for visual building surveys: shape, roof, projections, recesses, openings, materials. <a href="https://www.nps.gov/tps/how-to-preserve/briefs/17-architectural-character.htm">nps.gov</a></div>
+
+<div class="ref"><strong>DOCOMOMO US, "Styles of the Modern Era."</strong> Character-defining feature lists for International Style, Brutalist, Mid-Century Modern, and other sub-styles. <a href="https://www.docomomo-us.org/explore-modern/styles-of-the-modern-era">docomomo-us.org</a></div>
+
+<div class="ref"><strong>DOCOMOMO US, "How to Evaluate Modern."</strong> Evaluation framework covering technological, social, artistic, canonic, and referential merit. <a href="https://docomomo-us.org/explore-modern/explore-the-register/how-to-evaluate-modern">docomomo-us.org</a></div>
+
+<div class="ref"><strong>Parks Canada, <em>Standards and Guidelines for the Conservation of Historic Places in Canada</em>, 2nd ed. (2011).</strong> Canadian national standard. Addresses modern materials and assemblies. <a href="https://www.historicplaces.ca/en/pages/standards-normes.aspx">historicplaces.ca</a></div>
+
+<div class="ref"><strong>SurveyLA / "L.A. Modernism, 1919&ndash;1980."</strong> The largest modern-era field survey (880,000 parcels) with citizen-accessible feature categories. <a href="https://docomomo-us.org/register/surveyla">docomomo-us.org</a></div>
+
+<div class="ref"><strong>UNESCO / ICOMOS / DOCOMOMO Joint Programme on Modern Heritage.</strong> International framework for modern heritage identification. <a href="https://whc.unesco.org/en/modernheritage/">whc.unesco.org</a></div>
+
+<h3>Design decisions</h3>
+
+<div class="design-note"><strong>Why "extensive glazing" instead of "curtain wall"?</strong> A curtain wall is defined by its non-structural relationship to the frame &mdash; invisible from the street. "Extensive glazing" captures what citizens actually see.</div>
+
+<div class="design-note"><strong>Why separate "flat roof" and "unusual roof shape"?</strong> Roof form is the single most visible MCM identifier (NPS Brief 17). Butterfly and folded-plate roofs are equally distinctive and shouldn't be collapsed with flat roofs.</div>
+
+<div class="design-note"><strong>Why include "decorative screen"?</strong> Breeze blocks are among the most recognisable MCM features but absent from Le Corbusier's five points (they became widespread in the 1950s&ndash;60s).</div>
+
+<hr>
+
+<!-- ================================================================ -->
+<h2 id="references">References</h2>
+
+<h3>Victoria and BC Modernism</h3>
+
+<div class="ref"><strong>Segger, Martin. <em>Conservation Guidelines for Modernist Architecture in the Victoria Region.</em> 2019, 55 pp.</strong> Commissioned by the Victoria Civic Heritage Trust, Victoria Heritage Foundation, Saanich Heritage Foundation, and Oak Bay Heritage Foundation. Defines the period 1935&ndash;1975. The single most important published source for this project. <a href="https://dspace.library.uvic.ca/handle/1828/11482">UVic DSpace</a> &middot; <a href="https://heritagebc.ca/wp-content/uploads/2020/01/Segger_Martin_ConservGuide_2019.pdf">Heritage BC PDF</a></div>
+
+<div class="ref"><strong>Segger, Martin. "Victoria Modern." UVic Legacy Art Galleries, 2012&ndash;2017.</strong> Exhibitions and publications on Victoria's post-war modernist architecture (1939&ndash;2013). Case studies of John Di Castri and John Wade and Partners. <a href="https://legacy.uvic.ca/gallery/victoriamodern/">legacy.uvic.ca</a></div>
+
+<div class="ref"><strong>Segger, Martin, and Douglas Franklin. <em>Victoria: A Primer for Regional History in Architecture 1843&ndash;1929.</em> Heritage Architectural Guides, 1979.</strong> The foundational survey of Victoria's built heritage. Covers only up to 1929 &mdash; the modernist period remains without a comparable history.</div>
+
+<div class="ref"><strong>UVic Libraries. "Mid-Century Architecture in Victoria." Digital exhibit.</strong> Defines the Canadian MCM period as roughly 1945 to 1967. Documents architects John Wade, John Di Castri, and Hubert Norbury. <a href="https://exhibits.library.uvic.ca/spotlight/mcm/feature/1-introduction">exhibits.library.uvic.ca</a></div>
+
+<div class="ref"><strong>Windsor-Liscombe, Rhodri. <em>The New Spirit: Modern Architecture in Vancouver, 1938&ndash;1963.</em> Canadian Centre for Architecture / MIT Press, 1997.</strong> First comprehensive study of Vancouver modernism.</div>
+
+<div class="ref"><strong>Kalman, Harold. <em>A History of Canadian Architecture.</em> Oxford University Press, 1994, 2 vols.</strong> Volume 2 covers modernism. <em>Concise History</em> edition published 2000.</div>
+
+<h3>Modern Heritage in Canada</h3>
+
+<div class="ref"><strong>Algie, Susan, and James Ashby, eds. <em>Conserving the Modern in Canada: Buildings, Ensembles, and Sites, 1945&ndash;2005.</em> Winnipeg Architecture Foundation / DOCOMOMO Canada-Ontario, 2007.</strong> Proceedings of Canada's first national conference on modern heritage. Defines 1945&ndash;1975 as the period of focus. <a href="http://winnipegarchitecture.ca/wp-content/uploads/2012/10/CMC-Proceedings_Eng_a.pdf">PDF</a></div>
+
+<div class="ref"><strong>Jonas Galvin, Kayla. "Mad About Modernism." <em>Municipal World</em>, September 2014.</strong> Public apathy as the greatest risk to MCM buildings. Notes DOCOMOMO BC chapter. <a href="https://www.municipalworld.com/feature-story/mad-about-modernism/">municipalworld.com</a></div>
+
+<div class="ref"><strong>National Trust for Canada. Endangered Places List (annual, since 2003).</strong> Multiple modernist buildings featured; several subsequently demolished. <a href="https://nationaltrustcanada.ca/what-we-offer/endangered-places">nationaltrustcanada.ca</a></div>
+
+<div class="ref"><strong>Parks Canada. <em>Standards and Guidelines for the Conservation of Historic Places in Canada.</em> 2nd ed., 2011.</strong> National standard for heritage conservation. <a href="https://www.historicplaces.ca/en/pages/standards-normes.aspx">historicplaces.ca</a></div>
+
+<h3>Heritage Protection and Policy</h3>
+
+<div class="ref"><strong>City of Victoria. Heritage Conservation.</strong> Heritage Register listing "does not restrict any future actions proposed by an owner." Only designated properties are protected. <a href="https://www.victoria.ca/building-business/permits-development-construction/heritage-conservation">victoria.ca</a></div>
+
+<div class="ref"><strong>Policy Options (IRPP). "Canada has occasional policy but no effective statutes to protect heritage structures." August 2021.</strong> Canada "incentivizes destruction of built-heritage assets through a tax system biased toward demolition." <a href="https://policyoptions.irpp.org/magazines/august-2021/canada-has-occasional-policy-but-no-effective-statutes-to-protect-heritage-structures/">policyoptions.irpp.org</a></div>
+
+<div class="ref"><strong>Focus on Victoria. "Demolishing the Past, Unbuilding the Future."</strong> ~375 houses demolished in Victoria over a decade, peaking at 53 in 2015. <a href="https://www.focusonvictoria.ca/reporting/29/">focusonvictoria.ca</a></div>
+
+<h3>Citizen Science and Heritage Documentation</h3>
+
+<div class="ref"><strong>Orr, Scott A., et al. "Using Citizen Heritage Science to Monitor Remote Sites." <em>Conservation and Management of Archaeological Sites</em> 24:4&ndash;6 (2022).</strong> Community volunteers with smartphones can gather reliable heritage data. <a href="https://www.tandfonline.com/doi/full/10.1080/13505033.2022.2147299">doi.org</a></div>
+
+<div class="ref"><strong>Bai, Nan, et al. "Wiki Loves Monuments." <em>Journal on Computing and Cultural Heritage</em> (ACM, 2022).</strong> ~2 million heritage photographs collected by volunteers across 90 countries. <a href="https://dl.acm.org/doi/fullHtml/10.1145/3569092">doi.org</a></div>
+
+<div class="ref"><strong>CitizenHeritage.</strong> EU-funded project; 110 international cases of citizen participation in heritage documentation. <a href="https://www.citizenheritage.eu/">citizenheritage.eu</a></div>
+
+<div class="ref"><strong>British Library. <em>The Collective Wisdom Handbook.</em></strong> Perspectives on crowdsourcing in cultural heritage. <a href="https://britishlibrary.pubpub.org/pub/what-is-crowdsourcing-in-cultural-heritage">britishlibrary.pubpub.org</a></div>
+
+<h3>Local Heritage Organizations</h3>
+
+<div class="ref"><strong>Hallmark Heritage Society (Victoria, est. 1973).</strong> Archives on 3,500+ buildings, compiled through volunteer effort. <a href="https://hallmarkheritagesociety.ca/">hallmarkheritagesociety.ca</a></div>
+
+<div class="ref"><strong>Victoria Heritage Foundation.</strong> Co-funded Segger's 2019 guidelines. <a href="https://victoriaheritagefoundation.ca/publications-resources/">victoriaheritagefoundation.ca</a></div>
+
+<div class="ref"><strong>Vancouver Heritage Foundation.</strong> Annual Mid-Century Modern House Tours. <a href="https://www.vancouverheritagefoundation.org/resources/vhf-archive/past-house-tour-resources/mid-century-modern-house-tour/">vancouverheritagefoundation.org</a></div>
+
+<h3>International Framework</h3>
+
+<div class="ref"><strong>DOCOMOMO.</strong> International organization with a BC chapter. Style definitions and evaluation frameworks. <a href="https://www.docomomo-us.org/explore-modern/styles-of-the-modern-era">docomomo-us.org</a></div>
+
+<div class="ref"><strong>UNESCO / ICOMOS / DOCOMOMO Joint Programme on Modern Heritage.</strong> <a href="https://whc.unesco.org/en/modernheritage/">whc.unesco.org</a></div>
+
+<hr>
+
+<a class="back-link" href="/static/inventory/">Launch the Inventory &rarr;</a>
+
+</body>
+</html>
