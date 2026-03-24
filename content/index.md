@@ -21,4 +21,4 @@ cssclasses: ""
 
 ---
 ### [[My Work]] | [[Mentorship]] | [[Teaching]] | [[Contact]]
-### [[Education, Training, and Positions\|CV]] | [[Publications]] | [[Presentations]] | [[Blog Posts & Public Writing\|Blog & Writing]] | [[Service\|Service & Memberships]]
+### [[Degrees & Positions Held\|CV]] | [[Publications]] | [[Presentations]] | [[Blog Posts & Public Writing\|Blog & Writing]] | [[Service\|Service & Memberships]]
