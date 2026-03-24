@@ -3,10 +3,13 @@
  *
  * Initialises the Leaflet map centred on Greater Victoria, BC, with:
  *   - OpenStreetMap base tile layer
- *   - A GeoJSON layer for BC Register of Historic Places heritage properties
+ *   - A GeoJSON layer for BC Register of Historic Places heritage properties,
+ *     colour-coded by era: MCM-era (1945–1975) in blue, other heritage in
+ *     muted amber, and missing-date properties in soft red
  *   - Markers for known buildings (from the seed data)
  *   - Markers for citizen contributions
  *   - Click handler to trigger the contribution form
+ *   - A map legend explaining the layer colours
  *
  * Greater Victoria centre coordinates: 48.4284° N, 123.3656° W
  */
@@ -18,12 +21,30 @@ const MapModule = (() => {
   let contributionMarkers;
   let clickMarker;
 
-  // Heritage properties from BCRHP — amber/gold to distinguish from contributions
-  const HERITAGE_STYLE = {
-    color: '#d4a017',
-    weight: 2,
-    fillColor: '#f1c40f',
-    fillOpacity: 0.25,
+  // MCM era boundaries (inclusive)
+  const MCM_START = 1945;
+  const MCM_END = 1975;
+
+  // Heritage property styles by era category
+  const STYLE_MCM = {
+    color: '#1a5fb4',
+    weight: 2.5,
+    fillColor: '#3584e4',
+    fillOpacity: 0.35,
+  };
+
+  const STYLE_OTHER_HERITAGE = {
+    color: '#b5a06b',
+    weight: 1,
+    fillColor: '#e5d9b6',
+    fillOpacity: 0.18,
+  };
+
+  const STYLE_MISSING_DATE = {
+    color: '#c0392b',
+    weight: 1.5,
+    fillColor: '#e8a9a3',
+    fillOpacity: 0.22,
   };
 
   // Known buildings: larger red markers with a white building icon
@@ -43,6 +64,38 @@ const MapModule = (() => {
   });
 
   /**
+   * Parse a construction date string and return the earliest year found,
+   * or null if no year can be extracted.
+   * Handles formats like "1955", "1954-1955", "c. 1960", "circa 1950", etc.
+   */
+  function parseYear(dateStr) {
+    if (!dateStr) return null;
+    const match = dateStr.match(/(\d{4})/);
+    return match ? parseInt(match[1], 10) : null;
+  }
+
+  /**
+   * Classify a heritage feature into one of three categories.
+   * Returns 'mcm', 'other', or 'missing'.
+   */
+  function classifyHeritage(feature) {
+    const year = parseYear((feature.properties || {}).construction_date);
+    if (year === null) return 'missing';
+    if (year >= MCM_START && year <= MCM_END) return 'mcm';
+    return 'other';
+  }
+
+  /**
+   * Return the appropriate style for a heritage feature based on its era.
+   */
+  function heritageStyle(feature) {
+    const category = classifyHeritage(feature);
+    if (category === 'mcm') return STYLE_MCM;
+    if (category === 'missing') return STYLE_MISSING_DATE;
+    return STYLE_OTHER_HERITAGE;
+  }
+
+  /**
    * Initialise the Leaflet map.
    */
   function init() {
@@ -57,7 +110,7 @@ const MapModule = (() => {
 
     // Prepare empty layer groups
     heritageLayer = L.geoJSON(null, {
-      style: HERITAGE_STYLE,
+      style: heritageStyle,
       onEachFeature: onEachHeritage,
     }).addTo(map);
     buildingMarkers = L.layerGroup().addTo(map);
@@ -69,6 +122,9 @@ const MapModule = (() => {
     // Load heritage properties when the map moves
     map.on('moveend', loadHeritageProperties);
     loadHeritageProperties(); // initial load
+
+    // Add the legend
+    addLegend();
   }
 
   /**
@@ -102,16 +158,23 @@ const MapModule = (() => {
    */
   function onEachHeritage(feature, layer) {
     const p = feature.properties || {};
-    const date = p.construction_date ? `<br>Built: ${p.construction_date}` : '';
+    const category = classifyHeritage(feature);
+    const date = p.construction_date ? `<br>Built: ${p.construction_date}` : '<br><em>Date unknown</em>';
     const status = p.registration_status ? `<br>Status: ${p.registration_status}` : '';
     const link = p.bcrhp_url
       ? `<br><a href="${p.bcrhp_url}" target="_blank" rel="noopener">View on BCRHP &rarr;</a>`
       : '';
 
+    const eraLabel = category === 'mcm'
+      ? '<br><strong style="color:#1a5fb4;">Mid-century modern era</strong>'
+      : category === 'missing'
+        ? '<br><em style="color:#c0392b;">Construction date missing</em>'
+        : '';
+
     layer.bindPopup(`
       <div class="building-popup">
         <div class="popup-name">${p.name || 'Heritage Property'}</div>
-        <div class="popup-address">${p.city || ''}${date}${status}</div>
+        <div class="popup-address">${p.city || ''}${date}${status}${eraLabel}</div>
         ${link}
       </div>
     `);
@@ -130,6 +193,43 @@ const MapModule = (() => {
       // Silently fail — heritage overlays are supplementary, not critical
       console.warn('Could not load heritage properties:', err.message);
     }
+  }
+
+  /**
+   * Add a legend control to the bottom-right of the map.
+   */
+  function addLegend() {
+    const legend = L.control({ position: 'bottomright' });
+
+    legend.onAdd = function () {
+      const div = L.DomUtil.create('div', 'map-legend');
+      div.innerHTML = `
+        <div class="legend-title">Map Legend</div>
+        <div class="legend-item">
+          <span class="legend-swatch" style="background:#3584e4;border-color:#1a5fb4;"></span>
+          Heritage property (1945–1975)
+        </div>
+        <div class="legend-item">
+          <span class="legend-swatch" style="background:#e5d9b6;border-color:#b5a06b;"></span>
+          Heritage property (other era)
+        </div>
+        <div class="legend-item">
+          <span class="legend-swatch" style="background:#e8a9a3;border-color:#c0392b;"></span>
+          Heritage property (date unknown)
+        </div>
+        <div class="legend-item">
+          <span class="legend-swatch legend-circle" style="background:#c0392b;"></span>
+          Known modernist building
+        </div>
+        <div class="legend-item">
+          <span class="legend-swatch legend-circle" style="background:#27ae60;"></span>
+          Citizen contribution
+        </div>
+      `;
+      return div;
+    };
+
+    legend.addTo(map);
   }
 
   /**
