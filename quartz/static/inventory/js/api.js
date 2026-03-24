@@ -71,19 +71,21 @@ const Api = {
   },
 
   /**
-   * Fetch building footprints from the WFS proxy.
+   * Fetch heritage properties from the BCRHP proxy.
    * @param {object} bounds - Leaflet LatLngBounds
+   * @param {number} limit - max results (default 100)
    * @returns {Promise<object>} GeoJSON FeatureCollection
    */
-  async getWfsBuildings(bounds) {
+  async getHeritageProperties(bounds, limit = 100) {
     const params = new URLSearchParams({
       minLng: bounds.getWest(),
       minLat: bounds.getSouth(),
       maxLng: bounds.getEast(),
       maxLat: bounds.getNorth(),
+      limit: String(limit),
     });
-    const res = await fetch(`${API_BASE}/api/wfs/buildings?${params.toString()}`);
-    if (!res.ok) throw new Error(`WFS proxy error: ${res.status}`);
+    const res = await fetch(`${API_BASE}/api/heritage/properties?${params.toString()}`);
+    if (!res.ok) throw new Error(`Heritage proxy error: ${res.status}`);
     return res.json();
   },
 };

@@ -11,8 +11,9 @@
  *   2. OpenStreetMap (https://www.openstreetmap.org/) — the community-built
  *      world map. Each building footprint has a way ID.
  *
- *   3. GlobalBuildingAtlas (https://data.globalbuildingatlas.org/) — TU Munich's
- *      worldwide building footprint dataset. Each building has a unique ID.
+ *   3. BC Register of Historic Places (https://apps.nrs.gov.bc.ca/bcrhp/) —
+ *      the provincial heritage register maintained by the BC government on the
+ *      Arches open-source heritage platform. Each property has a UUID.
  *
  * This panel demonstrates the linked open data principles that make the
  * inventory interoperable with other heritage and geospatial datasets.
@@ -70,11 +71,11 @@ const LinkedDataModule = (() => {
             }
           </div>
 
-          <!-- GlobalBuildingAtlas identifier -->
+          <!-- BC Register of Historic Places identifier -->
           <div class="ld-identifier">
-            <span class="ld-label">GlobalBuildingAtlas</span>
-            ${ld.global_building_atlas
-              ? `<a href="${ld.global_building_atlas.url}" target="_blank" rel="noopener">${ld.global_building_atlas.building_id}</a>`
+            <span class="ld-label">BC Heritage Register</span>
+            ${ld.bcrhp
+              ? `<a href="${ld.bcrhp.url}" target="_blank" rel="noopener">View on BCRHP</a>`
               : '<span class="ld-missing">Not yet linked</span>'
             }
           </div>
@@ -84,9 +85,9 @@ const LinkedDataModule = (() => {
             Each identifier above connects this building record to an external
             dataset. This means the same building can be found across Wikidata
             (structured knowledge), OpenStreetMap (community maps), and the
-            GlobalBuildingAtlas (building footprints). Linking records across
-            datasets makes the inventory part of a larger open knowledge graph
-            for architectural heritage.
+            BC Register of Historic Places (provincial heritage records).
+            Linking records across datasets makes the inventory part of a larger
+            open knowledge graph for architectural heritage.
           </div>
         </div>
 

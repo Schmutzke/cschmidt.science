@@ -3,7 +3,7 @@
  *
  * Initialises the Leaflet map centred on Greater Victoria, BC, with:
  *   - OpenStreetMap base tile layer
- *   - A GeoJSON layer for GlobalBuildingAtlas building footprints
+ *   - A GeoJSON layer for BC Register of Historic Places heritage properties
  *   - Markers for known buildings (from the seed data)
  *   - Markers for citizen contributions
  *   - Click handler to trigger the contribution form
@@ -13,17 +13,17 @@
 
 const MapModule = (() => {
   let map;
-  let footprintLayer;
+  let heritageLayer;
   let buildingMarkers;
   let contributionMarkers;
   let clickMarker;
 
-  // Distinct colours for the different layer types
-  const FOOTPRINT_STYLE = {
-    color: '#3498db',
-    weight: 1,
-    fillColor: '#3498db',
-    fillOpacity: 0.15,
+  // Heritage properties from BCRHP — amber/gold to distinguish from contributions
+  const HERITAGE_STYLE = {
+    color: '#d4a017',
+    weight: 2,
+    fillColor: '#f1c40f',
+    fillOpacity: 0.25,
   };
 
   // Known buildings: larger red markers with a white building icon
@@ -56,16 +56,19 @@ const MapModule = (() => {
     }).addTo(map);
 
     // Prepare empty layer groups
-    footprintLayer = L.geoJSON(null, { style: FOOTPRINT_STYLE }).addTo(map);
+    heritageLayer = L.geoJSON(null, {
+      style: HERITAGE_STYLE,
+      onEachFeature: onEachHeritage,
+    }).addTo(map);
     buildingMarkers = L.layerGroup().addTo(map);
     contributionMarkers = L.layerGroup().addTo(map);
 
     // Click handler — when user clicks the map, trigger the contribution form
     map.on('click', onMapClick);
 
-    // Load building footprints when the map moves
-    map.on('moveend', loadFootprints);
-    loadFootprints(); // initial load
+    // Load heritage properties when the map moves
+    map.on('moveend', loadHeritageProperties);
+    loadHeritageProperties(); // initial load
   }
 
   /**
@@ -95,17 +98,37 @@ const MapModule = (() => {
   }
 
   /**
-   * Load building footprints from the WFS proxy for the current map view.
+   * Attach popup to each heritage property polygon.
    */
-  async function loadFootprints() {
+  function onEachHeritage(feature, layer) {
+    const p = feature.properties || {};
+    const date = p.construction_date ? `<br>Built: ${p.construction_date}` : '';
+    const status = p.registration_status ? `<br>Status: ${p.registration_status}` : '';
+    const link = p.bcrhp_url
+      ? `<br><a href="${p.bcrhp_url}" target="_blank" rel="noopener">View on BCRHP &rarr;</a>`
+      : '';
+
+    layer.bindPopup(`
+      <div class="building-popup">
+        <div class="popup-name">${p.name || 'Heritage Property'}</div>
+        <div class="popup-address">${p.city || ''}${date}${status}</div>
+        ${link}
+      </div>
+    `);
+  }
+
+  /**
+   * Load heritage properties from the BCRHP proxy for the current map view.
+   */
+  async function loadHeritageProperties() {
     try {
       const bounds = map.getBounds();
-      const geojson = await Api.getWfsBuildings(bounds);
-      footprintLayer.clearLayers();
-      footprintLayer.addData(geojson);
+      const geojson = await Api.getHeritageProperties(bounds);
+      heritageLayer.clearLayers();
+      heritageLayer.addData(geojson);
     } catch (err) {
-      // Silently fail — footprints are supplementary, not critical
-      console.warn('Could not load building footprints:', err.message);
+      // Silently fail — heritage overlays are supplementary, not critical
+      console.warn('Could not load heritage properties:', err.message);
     }
   }
 
