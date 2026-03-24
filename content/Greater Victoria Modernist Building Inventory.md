@@ -19,7 +19,7 @@ Each building record in the inventory connects to three external datasets follow
 
 - **[Wikidata](https://www.wikidata.org/)** — structured knowledge about the building (architect, date, heritage status)
 - **[OpenStreetMap](https://www.openstreetmap.org/)** — community-mapped building footprint and location
-- **[GlobalBuildingAtlas](https://data.globalbuildingatlas.org/)** — TU Munich's worldwide building footprint dataset
+- **[BC Register of Historic Places](https://apps.nrs.gov.bc.ca/bcrhp/)** — the provincial heritage register with 1,300+ properties in Greater Victoria
 
 ## Why Mid-Century Modernism?
 
