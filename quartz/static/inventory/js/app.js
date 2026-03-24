@@ -54,6 +54,7 @@ const AppModule = (() => {
     try {
       const buildings = await Api.getBuildings();
       MapModule.displayBuildings(buildings);
+      ListModule.setBuildings(buildings);
     } catch (err) {
       console.warn('Could not load known buildings:', err.message);
     }

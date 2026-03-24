@@ -26,25 +26,27 @@ const MapModule = (() => {
     fillOpacity: 0.15,
   };
 
+  // Known buildings: larger red markers with a white building icon
   const KNOWN_BUILDING_ICON = L.divIcon({
     className: 'known-building-marker',
-    html: '<div style="background:#e74c3c;width:14px;height:14px;border-radius:50%;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.4);"></div>',
-    iconSize: [14, 14],
-    iconAnchor: [7, 7],
+    html: '<div style="background:#c0392b;width:28px;height:28px;border-radius:50%;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;font-weight:bold;">B</div>',
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
   });
 
+  // Contributions: medium green markers
   const CONTRIBUTION_ICON = L.divIcon({
     className: 'contribution-marker',
-    html: '<div style="background:#27ae60;width:10px;height:10px;border-radius:50%;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.4);"></div>',
-    iconSize: [10, 10],
-    iconAnchor: [5, 5],
+    html: '<div style="background:#27ae60;width:16px;height:16px;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 4px rgba(0,0,0,0.4);"></div>',
+    iconSize: [16, 16],
+    iconAnchor: [8, 8],
   });
 
   /**
    * Initialise the Leaflet map.
    */
   function init() {
-    // Centre on Greater Victoria, BC
+    // Centre on Greater Victoria, BC — will be adjusted to fit buildings once loaded
     map = L.map('map').setView([48.4284, -123.3656], 13);
 
     // OpenStreetMap tile layer — free, no API key needed
@@ -109,16 +111,17 @@ const MapModule = (() => {
 
   /**
    * Display known buildings (seed data) as red markers on the map.
+   * After placing markers, zoom the map to fit all buildings.
    * @param {Array} buildings - array of building records from the API
    */
   function displayBuildings(buildings) {
     buildingMarkers.clearLayers();
+    const coords = [];
 
     buildings.forEach(b => {
       // Extract coordinates from whichever format the API returns:
-      //   - Demo mode provides top-level latitude/longitude fields
-      //   - Demo mode also provides location as { type: "Point", coordinates: [lng, lat] }
-      //   - Supabase may return PostGIS geography as a GeoJSON object or WKT string
+      //   - PostgreSQL production: top-level latitude/longitude from ST_Y/ST_X
+      //   - Demo mode: latitude/longitude fields or location.coordinates
       let lat, lng;
 
       if (b.latitude && b.longitude) {
@@ -130,6 +133,8 @@ const MapModule = (() => {
 
       // Skip if we couldn't determine coordinates
       if (!lat || !lng) return;
+
+      coords.push([lat, lng]);
 
       const marker = L.marker([lat, lng], { icon: KNOWN_BUILDING_ICON })
         .addTo(buildingMarkers);
@@ -144,6 +149,12 @@ const MapModule = (() => {
         </div>
       `);
     });
+
+    // Zoom map to fit all known buildings with some padding
+    if (coords.length > 0) {
+      const bounds = L.latLngBounds(coords);
+      map.fitBounds(bounds, { padding: [50, 50], maxZoom: 14 });
+    }
   }
 
   /**
