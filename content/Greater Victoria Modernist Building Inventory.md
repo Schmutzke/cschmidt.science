@@ -12,7 +12,7 @@ The **Greater Victoria Modernist Building Inventory** is a proof-of-concept web 
 
 1. **Explore** a map of Greater Victoria centred on the downtown core
 2. **Click** on a building or location to open the observation form
-3. **Record** modernist architectural features you observe: flat roofs, ribbon windows, pilotis, curtain walls, brise soleil, exposed concrete
+3. **Record** modernist architectural features you observe: flat roofs, ribbon windows, pilotis, extensive glazing, brise soleil, exposed concrete, and more — see the [full feature list with sources](Modernist%20Building%20Features%20—%20Sources)
 4. **Submit** your observation to the growing community inventory
 
 Each building record in the inventory connects to three external datasets following **linked open data** principles:
@@ -33,7 +33,7 @@ The proof-of-concept includes three example records with real linked data identi
 
 | Building | Decade | Features | Wikidata |
 |----------|--------|----------|----------|
-| BC Electric Building, 1012 Douglas St | 1950s | Curtain wall, flat roof | [Q109268356](https://www.wikidata.org/wiki/Q109268356) |
+| BC Electric Building, 1012 Douglas St | 1950s | Extensive glazing, flat roof | [Q109268356](https://www.wikidata.org/wiki/Q109268356) |
 | McPherson Library, UVic | 1960s | Exposed concrete, ribbon windows, flat roof | — |
 | Mid-Century Commercial Building, 1060 Fort St | 1960s | Brise soleil, pilotis, flat roof | — |
 
