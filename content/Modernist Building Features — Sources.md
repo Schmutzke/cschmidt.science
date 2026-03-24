@@ -1,6 +1,6 @@
 ---
 publish: true
-title: "Modernist Building Features — Sources"
+title: Modernist Building Features — Sources
 description: Sources and rationale behind the architectural feature checklist used in the Greater Victoria Modernist Building Inventory.
 ---
 
@@ -39,7 +39,7 @@ The [Greater Victoria Modernist Building Inventory](Greater%20Victoria%20Moderni
 
 ### Canadian context
 
-**Parks Canada, *Standards and Guidelines for the Conservation of Historic Places in Canada*, 2nd ed. (2011).** The Canadian national standard for heritage conservation. The second edition explicitly addresses modern materials and assemblies. Uses a values-based approach to identifying tangible features that express heritage significance. Available at [historicplaces.ca](https://www.historicplaces.ca/en/pages/standards-normes.aspx).
+**Parks Canada, _Standards and Guidelines for the Conservation of Historic Places in Canada_, 2nd ed. (2011).** The Canadian national standard for heritage conservation. The second edition explicitly addresses modern materials and assemblies. Uses a values-based approach to identifying tangible features that express heritage significance. Available at [historicplaces.ca](https://www.historicplaces.ca/en/pages/standards-normes.aspx).
 
 ### Field survey precedent
 
