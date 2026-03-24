@@ -1,0 +1,52 @@
+---
+publish: true
+title: Greater Victoria Modernist Building Inventory
+description: A citizen science proof-of-concept for documenting mid-century modernist architecture in the Capital Regional District, using linked open data and community contributions.
+---
+
+The **Greater Victoria Modernist Building Inventory** is a proof-of-concept web application that invites citizens to document mid-century modernist buildings across the Capital Regional District.
+
+> [**Launch the Inventory →**](/static/inventory/)
+
+## How It Works
+
+1. **Explore** a map of Greater Victoria centred on the downtown core
+2. **Click** on a building or location to open the observation form
+3. **Record** modernist architectural features you observe: flat roofs, ribbon windows, pilotis, curtain walls, brise soleil, exposed concrete
+4. **Submit** your observation to the growing community inventory
+
+Each building record in the inventory connects to three external datasets following **linked open data** principles:
+
+- **[Wikidata](https://www.wikidata.org/)** — structured knowledge about the building (architect, date, heritage status)
+- **[OpenStreetMap](https://www.openstreetmap.org/)** — community-mapped building footprint and location
+- **[GlobalBuildingAtlas](https://data.globalbuildingatlas.org/)** — TU Munich's worldwide building footprint dataset
+
+## Why Mid-Century Modernism?
+
+Victoria's mid-century modern buildings — roughly 1945 to 1975 — are increasingly at risk. While landmark structures like the **BC Electric Building** (1012 Douglas Street, 1960) are well documented, hundreds of smaller modernist commercial and residential buildings remain unrecorded. Many lack heritage protection and face demolition or unsympathetic renovation.
+
+Citizen science offers a way to build a comprehensive inventory faster than any single institution could manage alone.
+
+## Seed Buildings
+
+The proof-of-concept includes three example records with real linked data identifiers:
+
+| Building | Decade | Features | Wikidata |
+|----------|--------|----------|----------|
+| BC Electric Building, 1012 Douglas St | 1950s | Curtain wall, flat roof | [Q109268356](https://www.wikidata.org/wiki/Q109268356) |
+| McPherson Library, UVic | 1960s | Exposed concrete, ribbon windows, flat roof | — |
+| Mid-Century Commercial Building, 1060 Fort St | 1960s | Brise soleil, pilotis, flat roof | — |
+
+## Technology
+
+The application is structured in three layers:
+
+- **Frontend**: Plain HTML, CSS, and JavaScript with [Leaflet.js](https://leafletjs.com/) for mapping. No build step.
+- **Backend**: Node.js and Express, deployed on Oracle Cloud.
+- **Database**: Designed for Supabase (PostgreSQL + PostGIS) for spatial queries; currently running in demo mode with in-memory storage.
+
+The data model and linked open data approach are documented in the project's [DATAMODEL.md](https://github.com/Schmutzke/cschmidt.science/blob/v4/quartz/static/inventory/index.html).
+
+## Status
+
+This is a **proof-of-concept** developed to support a grant proposal. Contributions submitted in the current demo are stored in memory and reset when the server restarts. A production version with persistent storage is planned.
