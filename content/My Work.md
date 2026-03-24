@@ -20,10 +20,6 @@ What will tomorrow's libraries look like? At [Kula: Library Futures Academy](htt
 
 Libraries grow stronger through the networks around them. I teach at two German library schools from Canada, keeping a foot in the professional community that trained me. That connection lets me bridge conversations between European and North American librarianship — on open access policy, AI adoption, citizen science, and how different traditions approach the same problems. At a time when long-standing international partnerships are fracturing, building new ones matters more than ever.
 
-## Citizen Science & Digital Heritage
-
-What happens when you give citizens the tools to document their own built environment? The [Greater Victoria Modernist Building Inventory](Greater%20Victoria%20Modernist%20Building%20Inventory) is a proof-of-concept that explores this question — a web application where anyone can map mid-century modernist buildings and connect them to open knowledge bases like Wikidata and OpenStreetMap.
-
 ## Open Scholarship
 
 Open scholarship is a question of equity and inclusion. I managed acquisitions and collections at a university library to break down barriers to information. I co-chaired a [state-wide library consortium](Service) that steered the digital turn through its funding and oversaw a university press and its shift towards open access publishing. As an instructor across university programs, I advocate for open practices in learning and teaching.
