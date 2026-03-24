@@ -45,6 +45,11 @@ The application is structured in three layers:
 - **Backend**: Node.js and Express, deployed on Oracle Cloud (Montreal region).
 - **Database**: PostgreSQL + PostGIS running on the same Canadian server. No third-party database services — all data stays in Canada.
 
+## References
+
+- [Full references and sources](Greater%20Victoria%20Modernist%20Building%20Inventory%20—%20References) — periodization, heritage risk, documentation gaps, citizen science methodology
+- [Modernist building features — sources](Modernist%20Building%20Features%20—%20Sources) — architectural preservation literature behind the feature checklist
+
 ## Status
 
 This is a **proof-of-concept** developed to support a grant proposal. Contributions submitted through the app are stored persistently in the database.
