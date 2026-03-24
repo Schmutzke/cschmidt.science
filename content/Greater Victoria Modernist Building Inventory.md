@@ -1,5 +1,5 @@
 ---
-publish: true
+publish: false
 title: Greater Victoria Modernist Building Inventory
 description: A citizen science proof-of-concept for documenting mid-century modernist architecture in the Capital Regional District, using linked open data and community contributions.
 ---
@@ -52,4 +52,4 @@ The application is structured in three layers:
 
 ## Status
 
-This is a **proof-of-concept** developed to support a grant proposal. Contributions submitted through the app are stored persistently in the database.
+	This is a **proof-of-concept** developed to support a grant proposal. Contributions submitted through the app are stored persistently in the database.
